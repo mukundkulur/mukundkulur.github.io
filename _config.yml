@@ -1,0 +1,59 @@
+---
+title: Mukundkulur.Github.Io
+timezone: UTC
+collections:
+  _blog:
+    title: Blog
+    output: true
+    permalink: blog
+  posts:
+    title: Posts
+    output: true
+    blog: blog
+  uploads:
+    title: Uploads
+    output: true
+name: muku.
+author: Mukund Kulur
+description: muku. is Mukundhan Kulur's website, showcasing his projects and experience
+  in Industrial and Strategic Design. He has expertise in solving problems through
+  application of design thinking and innovation methods.
+keywords: Mukund, Mukundhan, Kulur, muku, mukundkp, nosywiz, nosy_wiz, Design, Industrial
+  Design, Product Design, Service Design, Design Thinking, Innovation, Strategy, problem
+  solving, management, consulting,
+avatar: "/images/logo_muku_black.png"
+footer:
+  dribbble: 
+  email: mukund.kulur@gmail.com
+  facebook: 
+  flickr: https://www.flickr.com/people/mukundkp/
+  github: 
+  instagram: https://www.instagram.com/mukundkulur/
+  linkedin: https://www.linkedin.com/in/mukundkulur
+  pinterest: 
+  rss: 
+  twitter: 
+  stackoverflow: 
+  youtube: 
+  googleplus: 
+disqus: 
+google_analytics: UA-84119302-1
+url: http://mukundkulur.com
+baseurl: 
+permalink: "/:title/"
+version: v1.2.0
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+sass:
+  style: 
+plugins: 
+exclude:
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- README.md
+- CNAME
+- node_modules

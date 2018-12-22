@@ -1,0 +1,270 @@
+<!--
+=================
+Testimonial Section
+================= 
+-->
+<section class="testimonial section" id="testimonial">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- testimonial wrapper -->
+                <div class="testimonial-slider">
+                    <div class="item text-center">
+                        <i class="fa fa-quote-right"></i>
+                        <!-- client info -->
+                        <div class="client-details">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla, soluta dolorum. Eos earum, magni asperiores,
+								unde corporis labore, enim, voluptatum officiis voluptates alias natus. Lorem ipsum dolor sit amet, consectetur adipisicing
+								elit. Quia, officia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quia?</p>
+                        </div>
+                        <!-- /client info -->
+                        <!-- client photo -->
+                        <div class="client-thumb">
+                            <img src="<?php echo get_template_directory_uri().'/images/client-logo/clients-1.jpg'; ?>" class="img-fluid" alt="">
+                        </div>
+                        <div class="client-meta">
+                            <h4>Matt Cutts</h4>
+                            <span>CEO , Company Name</span>
+                        </div>
+                        <!-- /client photo -->
+                    </div>
+                    <div class="item text-center">
+                        <i class="fa fa-quote-right"></i>
+                        <!-- client info -->
+                        <div class="client-details">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla, soluta dolorum. Eos earum, magni asperiores,
+								unde corporis labore, enim, voluptatum officiis voluptates alias natus. Lorem ipsum dolor sit amet, consectetur adipisicing
+								elit. Quia, officia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quia?</p>
+                        </div>
+                        <!-- /client info -->
+                        <!-- client photo -->
+                        <div class="client-thumb">
+                            <img src="<?php echo get_template_directory_uri().'/images/client-logo/clients-2.jpg'; ?>" class="img-fluid" alt="">
+                        </div>
+                        <div class="client-meta">
+                            <h4>Elon Musk</h4>
+                            <span>CEO , Company Name</span>
+                        </div>
+                        <!-- /client photo -->
+                    </div>
+                    <div class="item text-center">
+                        <i class="fa fa-quote-right"></i>
+                        <!-- client info -->
+                        <div class="client-details">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla, soluta dolorum. Eos earum, magni asperiores,
+								unde corporis labore, enim, voluptatum officiis voluptates alias natus. Lorem ipsum dolor sit amet, consectetur adipisicing
+								elit. Quia, officia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quia?</p>
+                        </div>
+                        <!-- /client info -->
+                        <!-- client photo -->
+                        <div class="client-thumb">
+                            <img src="<?php echo get_template_directory_uri().'images/client-logo/clients-1.jpg'; ?>" class="img-fluid" alt="">
+                        </div>
+                        <div class="client-meta">
+                            <h4>Jonathon Ive</h4>
+                            <span>CEO , Company Name</span>
+                        </div>
+                        <!-- /client photo -->
+                    </div>
+
+                </div>
+            </div>
+            <!-- end col lg 12 -->
+        </div>
+        <!-- End row -->
+    </div>
+    <!-- End container -->
+</section>
+<!-- End Section -->
+
+
+<!--
+=================
+Free tools section
+================= 
+-->
+<section class="team section bg-gray" id="team">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="title text-center">
+                    <h4>Guides &amp; Toolkits</h4>
+                    <h2>To get you started.</h2>
+                    <span class="border"></span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- team member -->
+            <?php $args = array(
+  'post_type' => 'post' ,
+  'orderby' => 'date' ,
+  'order' => 'DESC' ,
+  'posts_per_page' => 6,
+  'category_name' => 'work',
+  'paged' => get_query_var('paged'),
+  'post_parent' => $parent,
+  'showposts'=> 4, 
+); 
+
+$tools_query = new WP_Query( $args ); ?>
+        <?php if ( $tools_query -> have_posts() ) { ?>
+            <?php while ($tools_query -> have_posts()) : $tools_query -> the_post(); ?>
+            <div class="col-12 col-md-3 col-sm-6">
+                <div class="team-member text-center">
+                    <div class="member-photo">
+                        <!-- member photo -->
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri().'/images/team/member-1.jpg'; ?>" alt="team people">
+                        <!-- /member photo -->
+                    </div>
+                    <!-- member name & designation -->
+                    <div class="member-content">
+                        <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                        <p><?php echo substr(strip_tags($post->post_content), 0, 100);?></p>
+                    </div>
+                    <!-- /member name & designation -->
+                </div>
+            </div>
+
+            <?php endwhile; ?>
+        <?php }; ?>
+
+            <!-- end team member -->
+            <!-- team member -->
+            <div class="col-12 col-md-3 col-sm-6">
+                <div class="team-member text-center">
+                    <div class="member-photo">
+                        <!-- member photo -->
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri().'/images/team/member-2.jpg'; ?>" alt="team people">
+                        <!-- /member photo -->
+                    </div>
+                    <!-- member name & designation -->
+                    <div class="member-content">
+                        <h3>Innovation Design Framework</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
+                    </div>
+                    <!-- /member name & designation -->
+                </div>
+            </div>
+            <!-- end team member -->
+            <!-- team member -->
+            <div class="col-12 col-md-3 col-sm-6">
+                <div class="team-member text-center">
+                    <div class="member-photo">
+                        <!-- member photo -->
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri().'/images/team/member-3.jpg'; ?>" alt="team people">
+                        <!-- /member photo -->
+                    </div>
+                    <!-- member name & designation -->
+                    <div class="member-content">
+                        <h3>Brand Experience Canvas</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
+                    </div>
+                    <!-- /member name & designation -->
+                </div>
+            </div>
+            <!-- end team member -->
+            <!-- team member -->
+            <div class="col-12 col-md-3 col-sm-6">
+                <div class="team-member text-center">
+                    <div class="member-photo">
+                        <!-- member photo -->
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri().'/images/team/member-4.jpg'; ?>" alt="team people">
+                        <!-- /member photo -->
+                    </div>
+                    <!-- member name & designation -->
+                    <div class="member-content">
+                        <h3>Innovation&nbsp; &nbsp;Scorecard&nbsp;</h3>
+                        <span><i><span></span></i></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
+                    </div>
+                    <!-- /member name & designation -->
+                </div>
+            </div>
+            <!-- end team member -->
+        </div>
+        <!-- End row -->
+    </div>
+    <!-- End container -->
+</section>
+<section class="section freetools" id="freetools">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-5">
+                <h2>Free tools to kickstart your innovation journey.</h2>
+            </div>
+            <div class="col-12 col-md-7">
+                <a href="" target="_blank" class="btn-main btn btn-main-sm ">Download</a>
+            </div>
+        </div>         
+        <!-- End row -->
+    </div>     
+    <!-- End container -->
+</section>
+<!-- End section -->
+
+<!--
+=================
+Blog Section
+================= 
+-->
+
+<section class="blog section" id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="title text-center">
+                    <h4>THE untold story</h4>
+                    <h2>Blog.</h2>
+                    <span class="border"></span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        <!-- latest blog post loop -->
+
+
+
+<?php $args = array(
+  'post_type' => 'post' ,
+  'orderby' => 'date' ,
+  'order' => 'DESC' ,
+  'posts_per_page' => 6,
+  'category_name' => 'Blog',
+  'paged' => get_query_var('paged'),
+  'post_parent' => $parent,
+  'showposts'=> 3, 
+); 
+
+$the_query = new WP_Query( $args ); ?>
+        <?php if ( $the_query -> have_posts() ) { ?>
+            <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+                <article class="col-12 col-md-4">
+                    <div class="post-item">
+                        <div class="post-thumb">
+                            <img class="img-fluid shadow rounded" src="<?php echo get_template_directory_uri().'/images/blog/post-1.jpg'; ?>" alt="Generic placeholder image">
+                        </div>
+                        <div class="post-title">
+                            <h3 class="mt-0"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                        </div>
+                    <!--   <div class="post-meta">
+                            <span>By</span> 
+                            <a href="" class="">Jonathon Ive</a>
+                        </div> -->
+                        <div class="post-content">
+                            <p><?php echo substr(strip_tags($post->post_content), 0, 100);?></p>
+                        </div>
+                        <a class="btn btn-main" href="#">Read more</a>
+                    </div>
+                </article>
+            <?php endwhile; ?>
+        <?php }; ?>
+            <!-- end of latest blog post loop -->
+        </div>         
+        <!-- end row -->
+    </div>     
+    <!-- end container -->
+</section> 
+<!-- end section -->
