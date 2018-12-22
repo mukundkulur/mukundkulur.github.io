@@ -510,7 +510,7 @@ Tamil Nadu, INDIA 641002 <br>
 <div class="col-12 col-md-4">
 <div class="phone-block contact-meta-block">
 <i class="fa fa-phone"></i>
-<h4>Call Us</h4>
+<h4>Reach Out</h4>
 <p>
 Mobile: (+91) 9566724681 <br>
 </p>
