@@ -248,7 +248,7 @@ Client section
 <span class="border"></span>
 <p>I empower innovation teams and accelerate multi-national companies to look into the future and enable them to redefine their perspectives.</p>
 </div>
-</div>
+</div><br>
 <div class="row">
 <!-- single pricing table -->
 <div class="col-md-3 col-sm-6 col-12 pb-4">
@@ -363,7 +363,7 @@ Client section
 <span class="border"></span>
 <p>Through each altrustic activity I gained expanded my network and inside knowledge on the entrepreneurial ecosystem and in becoming a confident leader.</p>
 </div>
-</div>
+</div><br>
 <div class="row">
 <!-- single pricing table -->
 <div class="col-md-3 col-sm-6 col-12 pb-4">
