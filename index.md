@@ -33,7 +33,7 @@ Hero Area
 </div>
 <div class="col-md-6">
 <li>
-<a href="#contact" target="_blank" class="btn-main btn">Contact Me</a> 
+<a href="#contact" target="" class="btn-main btn">Contact Me</a> 
 </li>
 <!--<div class="video-player">
 <img class="img-fluid rounded" src="images/slider/video-player-thumb.jpg" alt="">
