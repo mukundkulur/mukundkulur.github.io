@@ -187,7 +187,7 @@ Process Section
 <h4>How I Work</h4>
 <h2>PROCESS.</h2>
 <span class="border"></span>
-<p>Integrating design thinking with lean approach, I direct teams to rapidly validate ideas and accelerate their innovation journey from problems to market success.</p>
+<p>The value of the solutions lie in the importance and the worth of solving the problem. Integrating design thinking with lean approach, I enable teams to rapidly validate ideas and accelerate their innovation journey from problems to market success.</p>
 </div>
 </div>
 </div>
@@ -197,7 +197,7 @@ Process Section
 <span class="count">1.</span>
 <i class="fa fa-puzzle-piece"></i>
 <h4>Problem Fit</h4>
-<p>Meaningful innovation starts with finding problems worth solving and in identifying people ready to pay for it. <br> <!-- By taking a 360 degree perspective across the whole value chain teams can gain a thorough understanding of their user's journey to further design new opportunities and experiences. -->&nbsp;</p>
+<p> Meaningful innovation starts with finding problems, evaluating them, identifying the different stakeholders involved and validating their needs. <br> <!-- By taking a 360 degree perspective across the whole value chain teams can gain a thorough understanding of their user's journey to further design new opportunities and experiences. -->&nbsp;</p>
 </div>
 </div>
 <div class="col-md-4 col-sm-6 p-0">
@@ -243,7 +243,7 @@ Client section
 <div class="row">
 <div class="col">
 <div class="title text-center">
-<h4>Clients & Parthers</h4>
+<h4>Clients & Partners</h4>
 <h2>COLLABORATORS.</h2>
 <span class="border"></span>
 <p>I empower innovation teams and accelerate multi-national companies to look into the future and enable them to redefine their perspectives.</p>
@@ -356,7 +356,7 @@ Client section
 <section class="volunteer-table section " id="volunteer">
 <div class="container">
 <div class="row">
-<div class="col">
+<div class="col col-12">
 <div class="title text-center">
 <h4>Learning to lead</h4>
 <h2>VOLUNTEER.</h2>
@@ -392,7 +392,7 @@ Client section
 <div class="client-member text-center">
 <div class="client-photo">
 <!-- member photo -->
-<img src="/images/client-logo/3-eia.png" alt="client" class="img-fluid">
+<img src="/images/client-logo/3-EIA.png" alt="volunteer" class="img-fluid">
 <!-- /member photo -->
 </div>
 <!-- member name & designation -->
@@ -404,7 +404,7 @@ Client section
 <div class="client-member text-center">
 <div class="client-photo">
 <!-- member photo -->
-<img src="/images/client-logo/4-aiesec.png" alt="client" class="img-fluid">
+<img src="/images/client-logo/4-AIESEC.png" alt="volunteer" class="img-fluid">
 <!-- /member photo -->
 </div>
 <!-- member name & designation -->
@@ -449,10 +449,13 @@ Do you have a problem in taking your product to market?<br> -->
 </div>
 <div class="row">
 <!-- Contact Details -->
-<div class="col-12 col-md-6">
-<div class="map">
+<div class="col-12 col-md-6 col-md-3">
+<div>
 <div id="map">
-<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=78%20kavya%20fort%2C%20east%20lokamanya%20street%20rspuram%20coimbatore&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.crocothemes.net">wordpress themes by crocothemes.net</a></div><style>.mapouter{text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:370px;width:550px;}</style></div>
+<div class="mapouter"><div class="gmap_canvas">
+<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=78%20kavya%20fort%2C%20east%20lokamanya%20street%20rspuram%20coimbatore&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</div>
+</div>
 </div>
 </div>
 

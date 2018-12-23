@@ -981,11 +981,26 @@ a:hover {
 
 .map {
     position: relative;
+    border: red solid 1px;
 }
 
 .map #map {
     height: 400px;
     color: white;
+
+}
+
+.mapouter{
+    text-align:right;
+    height:87.5%;
+    width:auto;
+}
+
+.gmap_canvas #gmap_canvas{
+    overflow:hidden;
+    background:none!important;
+    height:100%;
+    width:100%;
 }
 
 .contact-meta-block {
