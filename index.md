@@ -436,7 +436,7 @@ Contact Section
 <h2>CONTACT.</h2>
 <span class="border"></span>
 <p>
-No two companies needs are the same. That's why I customize services on the need basis for each startup and any multi-nationals around the globe. Contact me to discuss how I can find the right package for you. 
+No two companies needs are the same. That's why I customize services on the need basis for each startup and any multi-nationals around the globe. Contact me to discuss how we can together find the right package to meet your needs. 
 No strings attached. <br><!-- 
 
 Do you have a problem you need to define?<br>
