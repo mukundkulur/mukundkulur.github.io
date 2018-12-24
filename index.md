@@ -7,7 +7,7 @@ Hero Area
 ================= 
 -->
 <!-- id="particles-js" -->
-<section class="hero-area" >
+<section class="hero-area">
 <div class="container" >
 <!--  <div class="row col-md-12 logo">
 <nav class="navbar navbar-expand-md">
@@ -154,7 +154,7 @@ About Section
 </div>
 <div class="row mb-50 justify-content-center">
 <div class="col-md-5 col-sm-12 text-center pt-5">
-<img src="/images/home/strategy-3.jpg" class="img-fluid rounded shadow" alt="">
+<img src="/images/home/strategy-3_1.jpg" class="img-fluid rounded shadow" alt="">
 </div>
 <div class="col-md-5 col-sm-12">
 <div class="content">
@@ -200,7 +200,7 @@ Process Section
 <span class="count">1.</span>
 <i class="fa fa-puzzle-piece"></i>
 <h4>Problem Fit</h4>
-<p> Meaningful innovation starts with finding problems, evaluating them, identifying the different stakeholders involved and validating their needs. <br> <!-- By taking a 360 degree perspective across the whole value chain teams can gain a thorough understanding of their user's journey to further design new opportunities and experiences. -->&nbsp;</p>
+<p> Meaningful innovation starts with finding problems, evaluating them, identifying the different stakeholders involved and validating their needs.<!-- By taking a 360 degree perspective across the whole value chain teams can gain a thorough understanding of their user's journey to further design new opportunities and experiences. --><br> </p>
 </div>
 </div>
 <div class="col-md-4 col-sm-6 p-0">
@@ -208,7 +208,7 @@ Process Section
 <span class="count">2.</span>
 <i class="fa-paper-plane fa"></i>
 <h4>Solution Fit</h4>
-<p>Bringing the people from various parts of the value chain together  to solve real problems it becomes possible to co-create value and create real business impact. <!-- . This dramatically speeds up the time-to-market and develop disruptive business. --></p>
+<p>Bringing the people from various parts of the value chain together  to solve real problems it becomes possible to co-create value and create real business impact. <!-- . This dramatically speeds up the time-to-market and develop disruptive business. --><br> </p>
 </div>
 </div>
 <div class="w-100"></div>
@@ -217,7 +217,7 @@ Process Section
 <span class="count">3.</span>
 <i class="fa-crosshairs fa"></i>
 <h4>Strategic Fit</h4>
-<p>Business impact can be obtained by focusing on what really matters - equipping right people with right tools to solve right problems. </p>
+<p>Business impact can be obtained by focusing on what really matters - equipping right people with right tools to solve right problems. <br><br>  </p>
 </div>
 </div>
 <div class="col-md-4 col-sm-6 p-0">
@@ -225,7 +225,7 @@ Process Section
 <span class="count">4.</span>
 <i class="fa fa-rocket"></i>
 <h4>Go-to-Market</h4>
-<p>Accelerate market traction through an evidence based approach, and explore non-obvious ways to create, deliver, and capture value</p>
+<p>Accelerate market traction through an evidence based approach, and explore non-obvious ways to create, deliver, and capture value. <br><br>  </p>
 </div>
 </div>
 </div>
