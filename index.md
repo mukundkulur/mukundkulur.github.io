@@ -75,8 +75,9 @@ About Section
 </div>
 <div class="col-12 col-md-6">
 <p>Drawing on my experiences, I combine the philosopy of startups with an insightful innovation framework to help businesses leverage creativity into value - faster and better than in the past.</p>
-<p>By managing the innovation process, I operate at higher levels of uncertainity and ambiguity to measure every step of the innovation process - from idea creation and selection through prototyping and commercialization. </p>
-<p>I execute design thinking at the strategic levels to guide organisations in delivering value-driven solutions that meet their immediate and future needs.</p>
+<p>By executing design thinking at the strategic levels I guide organisations in instilling a culture of innovation through which they can generate value-driven solutions that meet their immediate and future needs.</p>
+<p>All of this requires operating at higher levels of uncertainity and ambiguity to navigate uncharted waters, mitigate risks, and transform needs into opportunities that can be explored and exploited into solutions - via problem identification to opportunity creation and idea selection through prototyping and commercialisation. </p>
+
 </div>
 </div> 
 <!-- End row -->
