@@ -29,13 +29,12 @@ Hero Area
 <div class="col-md-6">
 <div class="block">
 <p>In the rapidly changing world, businesses are ill equipped to navigate the volatile markets, and uncertain futures. The processes and structures established for creating success prevent them from innovating. The ambiguity and complexity associated with innovations act as a barrier to comfortably manage it.  </p>
-<p>Businesses need to '<b class="boldpink">Rethink</b>'&nbsp; and&nbsp; '<b class="boldpink">Redesign</b>' their approach towards innovation to be able to accelerate their growth to future.</p>
+<p>Businesses need to '<b class="boldpink">Rethink</b>'&nbsp; and&nbsp; '<b class="boldpink">Redesign</b>' their approach to compete in the ever-changing market and be able to accelerate their growth. By empowering you with right tools, methods, and processes, I enable you to build effective strategies and instill an innovative culture that is customer-centered and future-proof.</p>
 </div>
 </div>
 <div class="col-md-6">
-<li>
 <a href="#contact" target="" class="btn-main btn">Contact Me</a> 
-</li>
+
 <!--<div class="video-player">
 <img class="img-fluid rounded" src="images/slider/video-player-thumb.jpg" alt="">
 <a class="play-icon" href="javascript:void(0)"> <i class="tf-ion-play" data-video="https://www.youtube.com/embed/g3-VxLQO7do?autoplay=1"></i> </a>
@@ -71,7 +70,7 @@ About Section
 <div class="row">
 <div class="col-12 col-md-6">
 
-<h2>Accelerating business growth through managed innovation.</h2>
+<h2>Accelerating business growth through a design-driven innovation process.</h2>
 </div>
 <div class="col-12 col-md-6">
 <p>Drawing on my experiences, I combine the philosopy of startups with an insightful innovation framework to help businesses leverage creativity into value - faster and better than in the past.</p>
@@ -452,66 +451,11 @@ Do you have a problem in taking your product to market?<br> -->
 </div>
 </div>
 <div class="row">
-<!-- Contact Details -->
-<div class="col-12 col-md-6 col-md-3">
-<div>
-<div id="map">
-<div class="mapouter"><div class="gmap_canvas">
-<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=78%20kavya%20fort%2C%20east%20lokamanya%20street%20rspuram%20coimbatore&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-</div>
-</div>
-</div>
-</div>
-
-</div>
-<!-- / End Contact Details -->
-
-<!-- Contact Form -->
-<div class="contact-form col-12 col-md-6 " >
-<form id="contact-form" method="post" action="sendmail.php" role="form">
-<div class="form-group">
-<input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
-</div>
-
-<div class="form-group">
-<input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
-</div>
-
-<div class="form-group">
-<input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
-</div>
-
-<div class="form-group">
-<textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>	
-</div>
-
-<div id="success" class="success">
-Thank you. The Mailman is on His Way :)
-</div>
-
-<div id="error" class="error">
-Sorry, don't know what happened. Try later :(
-</div>
-
-<div id="cf-submit">
-<input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
-</div>						
-
-</form>
-</div>
-<!-- ./End Contact Form -->
-</div> <!-- end row -->
-<div class="row">
 <div class="col-12 col-md-4">
 <div class="address-block contact-meta-block">
-<i class="fa fa-map-marker"></i>
-<h4>Our Location</h4>
-<p> R.S.Puram, Coimbatore
-<br>
-Tamil Nadu, INDIA 641002 <br>
-
-</p>
-
+<i class="fa fa-envelope"></i>
+<h4>Email</h4>
+<a href="mailto:mukund.kulur@gmail.com" data-rel="external">mukund.kulur @ gmail.com</a>
 </div>
 </div>
 <div class="col-12 col-md-4">
@@ -519,7 +463,8 @@ Tamil Nadu, INDIA 641002 <br>
 <i class="fa fa-phone"></i>
 <h4>Reach Out</h4>
 <p>
-Mobile: (+91) 9566724681 <br>
+<a href="tel:1231231234" data-rel="external">
+Mobile: (+91) 9566724681 <br></a>
 </p>
 </div>
 </div>
@@ -537,6 +482,20 @@ Mobile: (+91) 9566724681 <br>
 </div>
 </div>
 </div>		
+<div class="row">
+<div class="col-12">
+<div>
+<div id="map">
+<div class="mapouter"><div class="gmap_canvas">
+<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=78%20kavya%20fort%2C%20east%20lokamanya%20street%20rspuram%20coimbatore&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</div>
+</div>
+</div>
+</div>
+
+</div> <!-- end row -->
+</div>
+<!-- / End Contact Details -->
 </div> <!-- end container -->
 </section> <!-- end section -->
 
@@ -653,4 +612,39 @@ particlesJS("particles-js",
  },
  "retina_detect": true
 });
+
+function validateForm() {
+  var name = document.forms["contact-form"]["name"];
+  if (name.value == "") {
+    alert("Name must be filled out");
+    name.focus(); 
+    return false;
+  }
+
+  var email = document.forms["contact-form"]["email"];
+  if (email.value == "") {
+    alert("Email must be filled out");
+    email.focus()
+    return false;
+  }
+
+  var subject = document.forms["contact-form"]["subject"];
+  if (subject.value == "") {
+    alert("Subject must be filled out");
+    subject.focus()
+    return false;
+  }
+
+  var message = document.forms["contact-form"]["message"];
+  if (message.value == "") {
+    alert("Message must be filled out");
+    message.focus()
+    return false;
+  }
+
+  if (name.value !="") or (name.value !="") or (name.value !="") or (name.value !="") {
+      window.open('mailto:test@example.com?subject=subject&body=body');
+  }
+  
+} 
 </script>
