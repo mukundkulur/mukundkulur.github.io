@@ -1,6 +1,6 @@
 ---
 title: muku. | Work
-permalink: "/work.html"
+permalink: "/cases.html"
 layout: default
 ---
 <!--
