@@ -8,14 +8,14 @@ layout: default
 Hero Area
 ================= 
 -->
-<section class="hero-area">
+<section class="hero-area header-area">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                <div class="block title">
                     <h4>My Works</h4>
                     <h1>SHOWCASE.</h1>
-                    <span class="border"></span>
+                    <span class="borderline"></span>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!</p>
                 </div>
             </div>
@@ -51,7 +51,7 @@ Start About Section
                 <div class="title text-center">
                     <h4>RECENT WORK</h4>
                     <h2>WORK SHOWCASE.</h2>
-                    <span class="border"></span>
+                    <span class="borderline"></span>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!</p>
                 </div>
             </div>
@@ -72,27 +72,27 @@ Start About Section
         <div class="row portfolio-items-wrapper">
             <div class="col-6 col-md-4 padding-0 mix design">
                 <div class="portfolio-block">
-                    <img class="img-fluid" src="images/portfolio/portfolio-1.jpg" alt="">
+                    <img class="img-fluid" src="images/portfolio/Wartsila.jpg" alt="Wärtsilä">
                     <div class="caption">
-                        <a class="search-icon" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1"> <i class="tf-ion-ios-search-strong"></i> </a>
-                        <h4><a href="">AirBnB Postcard</a></h4>
+                        <a class="search-icon" href="images/portfolio/Wartsila.jpg" data-lightbox="image-1"> <i class="tf-ion-ios-search-strong"></i> </a>
+                        <h4><a href="">Wärtsilä</a></h4>
                     </div>
                 </div>
             </div>
             <div class="col-6 col-md-4 padding-0 mix design ios">
                 <div class="portfolio-block ">
-                    <img class="img-fluid" src="images/portfolio/portfolio-2.jpg" alt="">
+                    <img class="img-fluid" src="images/portfolio/Valuecycle.jpg" alt="">
                     <div class="caption">
-                        <a class="search-icon" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1"> <i class="tf-ion-ios-search-strong"></i> </a>
-                        <h4><a href="">AirBnB Postcard</a></h4>
+                        <a class="search-icon" href="images/portfolio/Valuecycle.jpg" data-lightbox="image-1"> <i class="tf-ion-ios-search-strong"></i> </a>
+                        <h4><a href="">Packaging Value Cycle </a></h4>
                     </div>
                 </div>
             </div>
             <div class="col-6 col-md-4 padding-0 mix photography development">
                 <div class="portfolio-block">
-                    <img class="img-fluid" src="images/portfolio/portfolio-3.jpg" alt="">
+                    <img class="img-fluid" src="images/portfolio/ThirdEye.jpg" alt="">
                     <div class="caption">
-                        <a class="search-icon" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1"> <i class="tf-ion-ios-search-strong"></i> </a>
+                        <a class="search-icon" href="images/portfolio/ThirdEye.jpg" data-lightbox="image-1"> <i class="tf-ion-ios-search-strong"></i> </a>
                         <h4><a href="">AirBnB Postcard</a></h4>
                     </div>
                 </div>
@@ -139,7 +139,7 @@ Start About Section
                 <div class="title text-center">
                     <h4>Drop us a note</h4>
                     <h2>Contact Us.</h2>
-                    <span class="border"></span>
+                    <span class="borderline"></span>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!</p>
                 </div>
             </div>

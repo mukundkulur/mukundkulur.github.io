@@ -1,10 +1,6 @@
 ---
 layout: home
 ---
-
-<!--
-Fixed Navigation
-==================================== -->
 <!--
 =================
 Hero Area
@@ -43,13 +39,12 @@ Hero Area
     <b class="boldpink text-center fa fa-chevron-down"></b>
 </a>
 </div>
-<div  class="anchorlink" id="about"></div>
 </div>
 </div>
 </div>
 </section> 
 <!-- End of section -->
-
+<div  class="anchorlink" id="about"></div>
 <!--
 =================
 About Section
@@ -178,7 +173,7 @@ Process Section
 <div class="title text-center">
 <h4>How I Work</h4>
 <h2>PROCESS.</h2>
-<span class="border"></span>
+<span class="borderline"></span>
 <p>The value of the solutions lie in the importance and the worth of solving the problem. Integrating design thinking with lean approach, I enable teams to rapidly validate ideas and accelerate their innovation journey from problems to market success.</p>
 </div>
 </div>
@@ -237,7 +232,7 @@ Client section
 <div class="title text-center">
 <h4>Clients & Partners</h4>
 <h2>COLLABORATORS.</h2>
-<span class="border"></span>
+<span class="borderline"></span>
 <p>I empower innovation teams and accelerate multi-national companies to look into the future and enable them to redefine their perspectives.</p>
 </div>
 </div><br>
@@ -352,7 +347,7 @@ Client section
 <div class="title text-center">
 <h4>Learning to lead</h4>
 <h2>VOLUNTEER.</h2>
-<span class="border"></span>
+<span class="borderline"></span>
 <p>Through each altrustic activity I built my capabilities to become the leader I am now, and began my journey as an entrepreneur.</p>
 </div>
 </div><br>
@@ -426,7 +421,7 @@ Contact Section
 <div class="title text-center">
 <h4>Drop a note</h4>
 <h2>CONTACT.</h2>
-<span class="border"></span>
+<span class="borderline"></span>
 <p>
 No two companies needs are the same. That's why I customize services on the need basis for each startup and any multi-nationals around the globe. Contact me to discuss how we can together find the right package to meet your needs. 
 No strings attached. <br><!-- 

@@ -406,12 +406,12 @@ a:hover {
     }
 }
 
-.title .border {
+.title .borderline {
     display: inline-block;
     border-radius: 3px;
-    height: 6px;
+    height: 3px;
     position: relative;
-    width: 90px;
+    width: 120px;
     margin-bottom: 25px;
 }
 
@@ -428,9 +428,9 @@ a:hover {
 }
 
 .gradient,
-.title .border {
-    background-color: #ff2775;
-}
+.title .borderline {
+     background-color: #ff2775;
+ }
 
 .header-bradcrumb {
     background: transparent;
@@ -693,6 +693,16 @@ a:hover {
     margin-bottom: 20px 0;
 }
 
+.header-area {
+    padding: 150px 0 50px;
+    position: relative;
+    display: flex;
+    text-justify: center;
+    align-items: center;
+    background: #1f2532;
+    z-index: 5;
+}
+
 .video-player iframe {
     width: 100%;
     height: 100%;
@@ -768,6 +778,10 @@ a:hover {
     width: 100%;
     position: absolute;
     z-index: -1;
+}
+
+.anchorlink{
+    top: -100px;
 }
 
 /*=================================================================
