@@ -781,12 +781,15 @@ a:hover {
 }
 
 .anchorlink{
-    top: -100px;
-}
+    top: -150px;
+    height: 1px;
+    opacity: 0;
+/*     border: #000 2px solid;
+ */}
 
-/*=================================================================
+/*============================================================
   About us section
-==================================================================*/
+==============================================================*/
 .about {
     background: #fff;
 }
@@ -1178,7 +1181,7 @@ a:hover {
     padding: 8px 5px;
     font-weight: 600;
     text-transform: uppercase;
-    border: none;
+    border: 2px solid #fff;
     color: #777;
     outline: none;
     background: none;
@@ -1195,12 +1198,13 @@ a:hover {
 }
 
 .portfolio-items-wrapper li {
-    width: 32.33%;
+    width: 25%;
+    height: 25%;
 }
 
 .portfolio-block {
     position: relative;
-    transition: .3s all;
+    transition: 1s all;
     overflow: hidden;
 }
 
@@ -1213,7 +1217,7 @@ a:hover {
     right: 0;
     bottom: 0;
     background: rgba(255,39,117,.5);
-    transition: .3s all;
+    transition: 1s all;
 }
 
 .portfolio-block:hover:before {
@@ -1241,7 +1245,7 @@ a:hover {
     left: 10%;
     opacity: 0;
     z-index: 25;
-    transition: all 0.3s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 .portfolio-block .caption h4 {

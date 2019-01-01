@@ -45,13 +45,14 @@ Hero Area
 </section> 
 <!-- End of section -->
 <div  class="anchorlink" id="about"></div>
+
 <!--
 =================
 About Section
 ================= 
 -->
 
-<section class="about-2 section" >
+<section class="about-2 section">
 <div class="container">
 <div class="row">
 <div class="col-12 col-md-6">
