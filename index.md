@@ -438,14 +438,14 @@ Do you have a problem in taking your product to market?<br> -->
 <div class="row">
 <div class="col-12 col-md-4">
 <div class="address-block contact-meta-block">
-<i class="fa fa-envelope"></i>
+<img src="/images/icons/1x/send-2.png" alt="client" class="img-fluid contact-img">
 <h4>Email</h4>
 <a href="mailto:mukund.kulur@gmail.com" data-rel="external">mukund.kulur @ gmail.com</a>
 </div>
 </div>
 <div class="col-12 col-md-4">
 <div class="phone-block contact-meta-block">
-<i class="fa fa-phone"></i>
+<img src="/images/icons/1x/phone-2.png" alt="client" class="img-fluid contact-img">
 <h4>Reach Out</h4>
 <p>
 <a href="tel:1231231234" data-rel="external">
@@ -455,7 +455,7 @@ Mobile: (+91) 9566724681 <br></a>
 </div>
 <div class="col-12 col-md-4">
 <div class="social-icons-block contact-meta-block">
-<i class="fa fa-user"></i>
+<img src="/images/icons/1x/multiple-11.png" alt="contact" class="img-fluid contact-img">
 <h4>Social links</h4>
 <ul class="list-inline social-icon">
 <li class="list-inline-item"><a href="https://www.linkedin.com/in/mukundkulur/" target="_blank"><i class="fa fa-linkedin"></i></a></li>

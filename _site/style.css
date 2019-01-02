@@ -973,6 +973,10 @@ a:hover {
     margin-bottom: 6px;
 }
 
+.contact-img{
+    margin-bottom: 20px;
+}
+
 .social-icon li {
     display: inline-block;
     margin-right: 10px;
