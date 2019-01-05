@@ -11,12 +11,10 @@ Hero Area
 <section class="hero-area header-area">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-               <div class="block title">
-                    <h4>My Works</h4>
-                    <h1>SHOWCASE.</h1>
+            <div class="col-12 title">
+                <div class="block text-center">
+                    <p><h1>Cross-pollinating ideas, <br> methods, and insights<br> across domains.</h1></p>
                     <span class="borderline"></span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!</p>
                 </div>
             </div>
         </div>
@@ -29,7 +27,7 @@ Start About Section
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-5">
-                <h2>Wärtsilä</h2>
+                <h2>Driving the change to kick-start innovation.</h2>
             </div>
             <div class="col-12 col-md-7">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo.</p>
@@ -49,6 +47,16 @@ Free tools section
 -->
 <section class="team section" id="team">
     <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+               <div class="block title">
+                    <h4>My Works</h4>
+                    <h1>SHOWCASE.</h1>
+                    <span class="borderline"></span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!</p>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <!-- case -->
             <div class="col-12 col-md-3 col-sm-6">

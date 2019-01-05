@@ -861,7 +861,7 @@ a:hover {
     content: '';
     display: inline-block;
     width: 10px;
-    height: 250px;
+    height: 500px;
     background-color: #ff2775;
     z-index: 1;
     /*background-image: linear-gradient(100deg, #f9643d, #fe2a77)*/
@@ -1478,8 +1478,8 @@ a:hover {
  }
 
 .cases img {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(50%);
 }
 
 .cases:hover img {
@@ -1488,11 +1488,11 @@ a:hover {
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
     background-color: #ff2775;
+
 }
 
 .cases:hover {
-    background-color: #f9f9f9 !important;
-    border: #ff2775 2px solid;
+    background-color: #efefef !important;
 }
 
 .cases:hover .mask {
@@ -1503,8 +1503,8 @@ a:hover {
 .cases .case-content {
     padding: 25px 0;
     width: 90%;
-    height: 200px;
-    margin: 5px auto;
+/*     height: 200px;
+ */    margin: 5px auto;
     
 }
 
