@@ -74,20 +74,29 @@ Fixed Navigation
                                     <li class="nav-item dropdown active">
                                         <a class="nav-link" href="index.html" target="_self">home.&nbsp;</a>
                                     </li>
+                                    <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#services" target="_self" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">services.</a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" target="_self" href="404.html">Strategic Transformation.</a>
+                                                <a class="dropdown-item" target="_self" href="404.html">Business Design.</a>
+                                                <a class="dropdown-item" target="_self" href="404.html">Product Service Innovation.</a>
+                                            </div>
+                                        </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link"  href="cases.html" target="_self">cases.</a>
+                                    </li> 
                                     <li class="nav-item">
                                         <a class="nav-link" href="#about"  target="_self">about.</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link"  href="" target="_self">cases.</a>
-                                    </li> 
-                                    <li class="nav-item">
                                         <a class="nav-link"  href="#contact"  target="_self">contact.</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" target="_self" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">articles.&nbsp;</a>
+                                        <a class="nav-link dropdown-toggle" href="#" target="_self" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">articles.</a>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" target="_self" href="404.html">blog.</a>
                                             <a class="dropdown-item" target="_self" href="404.html">free tools.</a>
+                                            <a class="dropdown-item" target="_self" href="404.html">blog.</a>
+                                            
                                         </div>
                                     </li>
                                 </ul>
@@ -362,23 +371,25 @@ My role has been to direct my team to obtain the insights across both organisati
         <div class="container">
             <div class="row">
                 <div class="col-sm-3 col-md-3 col-lg-3">
-                    <h3>About</h3>
-                    <p><b class="boldpink">muku.</b> is the website for Mukundhan Kulur's consulting work.</p>
-                </div>
-                <!-- End of .col-sm-3 -->
-                <div class="col-sm-3 col-md-3 col-lg-3">
-                    <h3>Services</h3>
-                    <ul>
-                        <li>
-                            <a href="#services">Product Service Innovation</a>
-                        </li>
-                        <li>
-                            <a href="#services">Business Design</a>
-                        </li>
-                        <li>
-                            <a href="#services">Strategic Transformation</a>
-                        </li>
-                    </ul>
+                    <h3>Consulting</h3>
+                    <p>
+                        <b class="boldpink">muku.</b> is the business website for Mukundhan Kulur's Strategic Consulting.
+                    </p>
+                    <p>
+                        Lokamanya Street, RS Puram
+                        Coimbatore 641002
+                    </p>
+                    <p>
+                        <a href="mailto:mukund.kulur@gmail.com" data-rel="external">
+                            mukund.kulur@gmail.com <br></a>
+                    </p>
+                    <p>
+                        Mobile:<a href="tel:+91 9566724681" data-rel="external">
+                        (+91) 9566724681 <br></a>
+                    </p>
+                    
+
+
                 </div>
                 <!-- End of .col-sm-3 -->
                 <div class="col-sm-3 col-md-3 col-lg-3">
@@ -388,7 +399,10 @@ My role has been to direct my team to obtain the insights across both organisati
                         <a class="" href="<?php echo get_site_url(); ?>/index.php" target="_self">home.&nbsp;</a>
                     </li>
                     <li>
-                        <a class=""  href="/work.php" target="_self">work.</a>
+                        <a class=""  href="/work.php" target="_self">services.</a>
+                    </li>
+                    <li>
+                        <a class=""  href="/work.php" target="_self">cases.</a>
                     </li>
                     <li>
                         <a class="" href="<?php echo get_site_url(); ?>/about.php"  target="_self">about.</a>
@@ -405,15 +419,26 @@ My role has been to direct my team to obtain the insights across both organisati
                                            
                     </ul>
                 </div>
+            <!-- End of .col-sm-3 -->
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <h3>Social Media</h3>
+                    <ul class="list-inline social-icon">
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/mukundkulur/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/mukundkulur/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="" target="_blank"><i class="fa fa-quora"></i></a></li>
+                        <li class="list-inline-item"><a href="" target="_blank"><i class="fa fa-behance"></i></a></li>
+                        <li class="list-inline-item"><a href="" target="_blank"><i class="fa fa-medium"></i></a></li>
+                    </ul>
+                </div>
                 <!-- End of .col-sm-3 -->
                 <div class="col-sm-3 col-md-3 col-lg-3">
-                    <!-- <h3>Newsletter</h3>
+                    <h3>Newsletter</h3>
                     <form class="subscribe-form">
                         <div class="form-group">
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                         </div>
                         <button type="submit" class="btn btn-main">Subscribe Now</button>
-                    </form> -->
+                    </form>
                 </div>
                 <!-- End of .col-sm-3 -->
             </div>
@@ -442,4 +467,28 @@ Essential Scripts
 </html>
 
 
+<!-- 
+<div class="row">
+  <div class="col-12 col-md-4">
+    <div class="address-block contact-meta-block">
+    <img src="/images/icons/1x/send-2.png" alt="client" class="img-fluid contact-img">
+    <h4>Email</h4>
+    <a href="mailto:mukund.kulur@gmail.com" data-rel="external">mukund.kulur @ gmail.com</a>
+    </div>
+  </div>
+  <div class="col-12 col-md-4">
+    <div class="phone-block contact-meta-block">
+    <img src="/images/icons/1x/phone-2.png" alt="client" class="img-fluid contact-img">
+    <h4>Reach Out</h4>
+   
+    </div>
+  </div>
+<div class="col-12 col-md-4">
+<div class="social-icons-block contact-meta-block">
+<img src="/images/icons/1x/multiple-11.png" alt="contact" class="img-fluid contact-img">
+<h4>Social links</h4>
+
+</div>
+</div>
+</div>		 -->
 </html>

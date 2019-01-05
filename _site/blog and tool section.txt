@@ -268,3 +268,75 @@ $the_query = new WP_Query( $args ); ?>
     <!-- end container -->
 </section> 
 <!-- end section -->
+
+<!--
+=================
+Volunteer Section
+================= 
+-->
+
+<section class="volunteer-table section" id="volunteer">
+<div class="container">
+<div class="row">
+<div class="col col-12">
+<div class="title text-center">
+<h4>Learning to lead</h4>
+<h2>VOLUNTEER.</h2>
+<span class="borderline"></span>
+<p>Through each altrustic activity I built my capabilities to become the leader I am now, and began my journey as an entrepreneur.</p>
+</div>
+</div><br>
+<div class="row">
+<!-- single pricing table -->
+<div class="col-md-3 col-sm-6 col-12 pb-4">
+<div class="client-member text-center">
+<div class="client-photo">
+<!-- member photo -->
+<img src="/images/client-logo/1-slush.png" alt="client" class="img-fluid">
+<!-- /member photo -->
+</div>
+<!-- member name & designation -->
+<!-- /member name & designation -->
+</div>
+</div>
+<div class="col-md-3 col-sm-6 col-12">
+<div class="client-member text-center">
+<div class="client-photo">
+<!-- member photo -->
+<img src="/images/client-logo/2-junction.png" alt="client" class="img-fluid align-middle">
+<!-- /member photo -->
+</div>
+<!-- member name & designation -->
+<!-- /member name & designation -->
+</div>
+</div>
+<div class="col-md-3 col-sm-6 col-12">
+<div class="client-member text-center">
+<div class="client-photo">
+<!-- member photo -->
+<img src="/images/client-logo/3-EIA.png" alt="volunteer" class="img-fluid">
+<!-- /member photo -->
+</div>
+<!-- member name & designation -->
+<!-- /member name & designation -->
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-12">
+<div class="client-member text-center">
+<div class="client-photo">
+<!-- member photo -->
+<img src="/images/client-logo/4-AIESEC.png" alt="volunteer" class="img-fluid">
+<!-- /member photo -->
+</div>
+<!-- member name & designation -->
+<!-- /member name & designation -->
+</div>
+
+
+</div>
+</div>
+</div>
+</div><div class="anchorlink" id="contact"></div>
+<!-- End container -->
+</section>
