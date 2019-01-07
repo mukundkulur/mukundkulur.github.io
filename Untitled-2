@@ -1,6 +1,6 @@
 ---
-title: muku. | Work
-permalink: "/cases.html"
+title: muku. | Wärtsilä
+permalink: "/work/wartsila.html"
 layout: default
 ---
 <!--
@@ -73,7 +73,7 @@ Free tools section
                     </div>
                     <!-- /case name & designation -->
                     <div class="case-more">
-                        <a class="btn btn-main" href="{{ site.baseurl }}/cases/wartsila.html">Read more</a>
+                        <a class="btn btn-main" href="#">Read more</a>
                     </div>
                 </div>
             </div>

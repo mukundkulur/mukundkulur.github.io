@@ -2,17 +2,118 @@
 layout: default
 ---
 
-<div class=""></div>
-  <div class="prev-next">
-    {% if page.previous.url %}
-    <span class="prev-button"><a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></span>
-    {% endif %}
-    {% if page.next.url %}
-    <span class="next-button"><a href="{{page.next.url}}">{{page.next.title}} &raquo; </a></span>
-    {% endif %}
-  </div>
+<!--
+=================
+Hero Area
+================= 
+-->
+<section class="hero-area header-area">
+    <div class="container ">
+        <div id="banner-img">
+          <!-- <img src="{{ page.featured-img }}"> -->
+          <style>
+          #banner-img {
+                background-image: url("{{ page.featured-img }}"); /* The image used */
+                background-color: #cccccc; /* Used if the image is unavailable */
+                height: 100%; /* You must set a specified height */
+                width: 100%;
+                background-position: center; /* Center the image */
+                background-repeat: no-repeat; /* Do not repeat the image */
+                background-size: cover; /* Resize the background image to cover the entire container */
+              }     
+            </style>
+        </div>
+        <div class="row">
+            <div class="col-12 title">
+                <div class="block text-center">
+                    <p><h1>{{ page.title }}</h1></p>
+                    <span class="borderline"></span>
+                    <p>{{page.categories }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
 
-  <div class="post">
-      {{ content }}
+
+
+
+
+
+<!--
+Start About Section
+==================================== -->
+<section class="about-2 section bg-gray" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-5">
+                <h2>{{ page.client }}</h2>
+            </div>
+            <div class="col-12 col-md-7">
+                <p>
+                  {{ page.client-info }}
+                </p><ul>
+                  <li>
+                      {{ page.tags }}
+                  </li>
+                  <li>
+                      {{ page.collection }}
+                  </li>
+                  <li>
+                      {{ page.categories }}
+                  </li>
+                  <li>
+                      {{ page.path }}<br>{{ site.url }}<br>
+                      {{ site.baseurl }}
+                  </li>
+                </ul>
+            </div>
+        </div>         
+        <!-- End row -->
+    </div>     
+    <!-- End container -->
+</section> 
+<!-- End section -->
+
+
+<!--
+=================
+Free tools section
+================= 
+-->
+<section class="team section" id="team">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+               <div class="block title">
+                    <h4>To Solve The </h4>
+                    <h1>CHALLENGE.</h1>
+                    <span class="borderline"></span>
+                    <p>{{ page.challenge}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 col-md-7">
+            <p>{{ page.content }}</p>
+        </div>
+    </div>
+    <!-- End container -->
+</section>
+
+
+<section>
+  <div class="container">
+      <div class=""></div>
+      <div class="prev-next">
+        {% if page.previous.url %}
+        <span class="prev-button"><a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></span>
+        {% endif %}
+        {% if page.next.url %}
+        <span class="next-button"><a href="{{page.next.url}}">{{page.next.title}} &raquo; </a></span>
+        {% endif %}
+      </div>
   </div>
-</div>
+</section>

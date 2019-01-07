@@ -13,7 +13,7 @@ Hero Area
 <div class="container" id="home">
 <div class="row">
 <div class="col-12 hero-logo">
- <a class="navbar-brand" href="index.html">
+ <a class="navbar-brand" href="{{ site.url }}">
     <img src="/images/muku_logo_white.png" alt="logo" width="100" class="text-left">
   </a>
 </div>
@@ -268,7 +268,7 @@ Client section
 <div class="client-member text-center">
 <div class="client-photo">
 <!-- member photo -->
-<img src="/images/client-logo/1-forge.png" alt="client" class="img-fluid">
+<img src="/images/client-logo/1-forge.png" alt="Forge Accelerator" class="img-fluid">
 <!-- /member photo -->
 </div>
 <!-- member name & designation -->
@@ -279,7 +279,7 @@ Client section
 <div class="client-member text-center">
 <div class="client-photo">
 <!-- member photo -->
-<img src="/images/client-logo/2-rohrbeckheger.png" alt="client" class="img-fluid align-middle">
+<img src="/images/client-logo/2-rohrbeckheger.png" alt="Rohrbeck Heger GmbH" class="img-fluid align-middle">
 <!-- /member photo -->
 </div>
 <!-- member name & designation -->
@@ -290,7 +290,7 @@ Client section
 <div class="client-member text-center">
 <div class="client-photo">
 <!-- member photo -->
-<img src="/images/client-logo/3-nokia.png" alt="client" class="img-fluid">
+<img src="/images/client-logo/3-nokia.png" alt="Nokia" class="img-fluid">
 <!-- /member photo -->
 </div>
 <!-- member name & designation -->
@@ -302,7 +302,7 @@ Client section
 <div class="client-member text-center">
 <div class="client-photo">
 <!-- member photo -->
-<img src="/images/client-logo/5-stepcharge.png" alt="client" class="img-fluid">
+<img src="/images/client-logo/5-stepcharge.png" alt="StepCharge" class="img-fluid">
 <!-- /member photo -->
 </div>
 <!-- member name & designation -->
@@ -315,7 +315,7 @@ Client section
 <div class="client-member text-center">
 <div class="client-photo">
 <!-- member photo -->
-<img src="/images/client-logo/4-robit.png" alt="client" class="img-fluid">
+<img src="/images/client-logo/4-robit.png" alt="Robit" class="img-fluid">
 <!-- /member photo -->
 </div>
 <!-- member name & designation -->
@@ -327,7 +327,7 @@ Client section
 <div class="client-member text-center">
 <div class="client-photo ">
 <!-- member photo -->
-<img src="/images/client-logo/6-finnair.png" alt="client" class="img-fluid">
+<img src="/images/client-logo/6-finnair.png" alt="Finnair" class="img-fluid">
 <!-- /member photo -->
 </div>
 <!-- member name & designation -->
@@ -338,7 +338,7 @@ Client section
 <div class="client-member text-center">
 <div class="client-photo">
 <!-- member photo -->
-<img src="/images/client-logo/7-wartsila.png" alt="client" class="img-fluid">
+<img src="/images/client-logo/7-wartsila.png" alt="Wärtisilä" class="img-fluid">
 <!-- /member photo -->
 </div>
 <!-- member name & designation -->
@@ -350,7 +350,7 @@ Client section
 <div class="client-member text-center">
 <div class="client-photo">
 <!-- member photo -->
-<img src="/images/client-logo/8-PTR.png" alt="client" class="img-fluid">
+<img src="/images/client-logo/8-PTR.png" alt="PTR" class="img-fluid">
 <!-- /member photo -->
 </div>
 <!-- member name & designation -->

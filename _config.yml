@@ -2,14 +2,18 @@
 title: Mukundkulur.Github.Io
 timezone: UTC
 collections:
-  _blog:
+  cases:
+    title: Cases
+    output: true
+    permalink: cases
+  blog:
     title: Blog
     output: true
     permalink: blog
   posts:
     title: Posts
     output: true
-    blog: blog
+    permalink: posts
   uploads:
     title: Uploads
     output: true
