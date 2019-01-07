@@ -626,6 +626,94 @@ a:hover {
     margin: 0;
 }
 
+/*
+**************************
+NAVIGATION OPACITY
+**************************
+*/
+
+.opacity-nav{
+    position:fixed;
+    display:none;
+    width:100%;
+    height:100%;
+    top:0;
+    z-index:9999;
+    background:rgba(0,0,0,0.95);
+  }
+  
+  ul.menu-fullscreen{
+    width: 100%;
+    top: 50%;
+    position: absolute;
+    height: 280px;
+    margin-top: -140px;
+  }
+  
+  ul.menu-fullscreen li{
+    font-size:35px;
+    text-align:center;
+    line-height:70px;
+    font-weight:500;
+  }
+  
+  ul.menu-fullscreen li > a{
+    color:#999999;
+    border:0;
+  }
+  
+  ul.menu-fullscreen li > a:hover{
+    color:#ffffff;
+  }
+  
+  
+  #full{
+    width:1140px;
+    position: relative;
+    top:0;
+    margin:0 auto;
+    z-index: 9997;
+  }
+  
+  
+  #fullscreen{
+    display:none;
+    position:absolute;
+    top:0;
+    width:100%;
+    margin:0 auto;
+    height:80px;
+    z-index: 9998;
+  }
+
+  .menu-index{
+    position: fixed;
+    right: 5%;
+    top: 0px;
+    z-index: 99999;
+    padding:20px;
+    cursor:pointer;
+    color: #f9f9f9;
+  }
+
+  #fullscreen .menu-index:active{
+    display: block;
+  }
+
+  @media(max-width: 768px){
+    #fullscreen {
+        display:block !important;
+      }
+    
+    .hero-logo{
+        padding-bottom: 20px;
+    }
+    
+    
+
+  }
+
+
 .logo {
     padding-bottom: 100px;
 } 
@@ -870,8 +958,8 @@ a:hover {
 
 @media (max-width: 768px) {
     .about-2 h2:before {
-        display: none;
-    }
+/*         display: none;
+ */    }
 }
 
 /*=================================================================

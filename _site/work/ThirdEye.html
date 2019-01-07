@@ -64,13 +64,31 @@ Fixed Navigation
                             <a class="navbar-brand" href="http://localhost:4000">
                                 <img src="/images/muku_logo_white.png" alt="logo" width="100" class="text-left">
                             </a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
-                                <span class="fa fa-bars"></span>
-                            </button>
+
+                            <div class="opacity-nav">
+                                <div class="menu-index" id="buttons" style="z-index:999999">
+                                <i class="fa fa-close"></i>
+                            </div>
+                        
+                            <ul class="menu-fullscreen">
+                              <li><a class="ajax-link" href="single.html">Home</a></li>
+                              <li><a class="ajax-link" href="projects.html">Projects</a></li>
+                              <li><a class="ajax-link" href="about-us.html">About us</a></li>
+                              <li><a class="ajax-link" href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        
+                        
+                          <!--Header-->
+                          <header id="fullscreen">
+                                <div class="menu-index" id="button">
+                                    <i class="fa fa-bars"></i>
+                                </div>
+                          </header>
+
+
                             <div class="navbar-collapse collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
-                              <!--   <li class="nav-item dropdown active">    
-                                <?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu-header' ) ); ?></li> -->
                                     <li class="nav-item dropdown active">
                                         <a class="nav-link" href="http://localhost:4000" target="_self">home.&nbsp;</a>
                                     </li>

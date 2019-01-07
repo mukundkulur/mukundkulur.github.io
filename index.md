@@ -28,7 +28,7 @@ Hero Area
 <p>Businesses need to '<b class="boldpink">Rethink</b>' and '<b class="boldpink">Redesign</b>' their approach to compete in the ever-changing market and be able to accelerate their growth. By empowering teams with right tools, methods, and processes I enable them to build effective strategies, and instill an innovative culture that is customer-centered and future-proof.</p> 
 </div>
 </div>
-<div class="col-md-6">
+<div class="col-md-6 pb-5 pt-2">
 <a href="#contact" target="" class="btn-main btn">Contact Me</a> 
 </div>
 </div>
