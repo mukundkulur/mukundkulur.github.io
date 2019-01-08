@@ -178,11 +178,6 @@ a:hover {
         padding: 0 15px;
     }
 }
-
-.section-sm {
-    padding: 70px 0;
-}
-
 .section-xs {
     padding: 40px 0;
 }
@@ -897,10 +892,11 @@ NAVIGATION OPACITY
     }
 }
 
-.about h4 {
-    font-size: 14px;
-    color: #ff2775;
-    letter-spacing: 1px;
+.about-2 h4 {
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 700;
+    letter-spacing: 3.3px;
     text-transform: uppercase;
 }
 

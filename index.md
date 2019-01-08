@@ -118,32 +118,32 @@ Services Section
 <!-- End container -->
 </section> 
 <!-- End section -->
-<section class="about section-sm">
+
+<section class="about section">
 <div class="container">
-  <div class="row mb-50 justify-content-center">
-    <div class="col-md-5 col-sm-12 text-center pt-5">
+  <div class="row mb-25 justify-content-center">
+    <div class="col-md-5 col-sm-12 text-center pt-3">
       <img src="/images/home/strategy-3_1.jpg" class="img-fluid rounded shadow" alt="">
     </div>
     <div class="col-md-5 col-sm-12">
       <div class="content">
-      <h2></h2>
-      <h2 spellcheck="true" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="32" medium-editor-index="58d8fdab-fa3e-ea7c-c930-4fdbd06b08bc" data-placeholder="Type your text" data-medium-focused="true">Thinking ahead and into future.</h2>
+      <h2> Thinking ahead and into future.</h2>
       <p>Recent trends are disrupting industries, and even forcing the market leaders to rethink their future and how they innovate. By identifying and removing any potential risks and associated barriers, it is possible to iterate and shape an innovation strategy that allows businesses to think ahead and make decisions to invest better and execute faster.</p>
       </div>
   </div>
 
-  <div class="row mb-50 justify-content-center">
+  <div class="row mb-25 justify-content-center">
     <div class="col-md-5 col-sm-12">
       <div class="content text-right">
         <h2>Cocreating strategic value.</h2>
         <p>To succeed teams need to identify the right problems to address, rapidly validate their ideas, and overcome any adoption barriers. Through co-creation workshops teams gain insights into the hearts and minds of their customers and align their investments to meet their current and future demands.</p>
         </div>
       </div>
-      <div class="col-md-5 col-sm-12 text-center pt-2" id="about-img1">
+      <div class="col-md-5 col-sm-12 text-center" id="about-img1">
         <img src="/images/home/strategy-1.png" class="img-fluid rounded shadow" alt="">
       </div>
   </div>
-  <div class="row mb-50 justify-content-center">
+  <div class="row mb-25 justify-content-center">
       <div class="col-md-5 col-sm-12">
         <img src="/images/home/strategy-2.jpg" class="img-fluid rounded shadow" alt="">
       </div>
@@ -264,6 +264,19 @@ Client section
 </div><br>
 <div class="row">
 <!-- single pricing table -->
+
+<div class="col-md-3 col-sm-6 col-12">
+<div class="client-member text-center">
+<div class="client-photo">
+<!-- member photo -->
+<img src="/images/client-logo/3-nokia.png" alt="Nokia" class="img-fluid">
+<!-- /member photo -->
+</div>
+<!-- member name & designation -->
+<!-- /member name & designation -->
+</div>
+</div>
+
 <div class="col-md-3 col-sm-6 col-12 pb-4">
 <div class="client-member text-center">
 <div class="client-photo">
@@ -280,17 +293,6 @@ Client section
 <div class="client-photo">
 <!-- member photo -->
 <img src="/images/client-logo/2-rohrbeckheger.png" alt="Rohrbeck Heger GmbH" class="img-fluid align-middle">
-<!-- /member photo -->
-</div>
-<!-- member name & designation -->
-<!-- /member name & designation -->
-</div>
-</div>
-<div class="col-md-3 col-sm-6 col-12">
-<div class="client-member text-center">
-<div class="client-photo">
-<!-- member photo -->
-<img src="/images/client-logo/3-nokia.png" alt="Nokia" class="img-fluid">
 <!-- /member photo -->
 </div>
 <!-- member name & designation -->
