@@ -404,7 +404,7 @@ Contact Section
       </div>
     </div> 
     <div class="col-12 col-md-6 contact-form pt-2">
-      <form id="contact-form" method="post" action="sendmail.php" role="form">
+      <form id="contact-form" method="post" action="https://formspree.io/mukund.kulur@gmail.com" role="form">
           <div class="form-group">
             <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
           </div>					
