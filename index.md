@@ -230,7 +230,7 @@ Downloads section
 ================= 
 -->
 
-<section class="section freetools" id="freetools">
+<!-- <section class="section freetools" id="freetools">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-5">
@@ -240,11 +240,11 @@ Downloads section
                 <a href="" target="_blank" class="btn-main btn btn-main-sm ">Download</a>
             </div>
         </div>         
-        <!-- End row -->
+        <!-- End row 
     </div>     
-    <!-- End container -->
+  End container 
 </section>
-<!-- End section -->
+End section -->
 
 <!--
 =================
