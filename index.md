@@ -403,8 +403,9 @@ Contact Section
         </div>
       </div>
     </div> 
+    <!-- -->
     <div class="col-12 col-md-6 contact-form pt-2">
-      <form id="contact-form" method="post" action="https://formspree.io/mukund.kulur@gmail.com" role="form">
+      <form id="contact-form" method="post" action="https://formspree.io/info@mukundkulur.com" role="form">
           <div class="form-group">
             <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
           </div>					
@@ -469,7 +470,7 @@ function validateForm() {
     return false;
   }
 
-  if (name.value !="") or (name.value !="") or (name.value !="") or (name.value !="") {
+  if (name.value !="") or (email.value !="") or (subject.value !="") or (message.value !="") {
       window.open('mailto:test@example.com?subject=subject&body=body');
   }
   
