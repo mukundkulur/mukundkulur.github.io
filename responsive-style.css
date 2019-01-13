@@ -1,0 +1,77 @@
+
+
+@media (max-width: 992px) {
+    .about h2 {
+        font-size: 25px;
+    }
+
+    .about .content {
+        padding: 5px 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .navigation .navbar-nav > li > a {
+        padding: 8px 0 !important;
+    }
+
+    .contact-form {
+        margin-top: 20px;
+    }
+
+    #fullscreen {
+        display:block !important;
+      }
+    
+    .hero-logo{
+        padding-bottom: 20px;
+    }
+
+    .service-2 .p-0 {
+        padding: 0 15px !important;
+    }
+
+    .padding-0 {
+        padding: 0 15px;
+    }
+
+    .title p {
+        width: 80%;
+    }
+}
+
+  @media (max-width: 480px) {
+    .navigation .navbar-nav > li > a {
+       padding: 8px 0 !important;
+   }
+
+   .hero-area {
+       padding: 80px 0;
+   }
+
+   .hero-area .block {
+       margin: 20px 0;
+   }
+
+   .services .service-block {
+        padding: 15px;
+    }
+
+    .service-2 .p-0 {
+        padding: 0 15px !important;
+    }
+
+    .section {
+        padding: 40px 0;
+    }
+
+    .title p {
+        width: 80%;
+    }
+}
+
+@media (max-width: 400px) {
+    .service-2 .p-0 {
+        padding: 0 15px !important;
+    }
+}

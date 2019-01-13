@@ -23,11 +23,9 @@
   ================================================== -->
         <!-- Main Stylesheet -->
         <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/responsive-style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-
     </head>
     <body id="body">
         <!--
@@ -62,36 +60,59 @@ Fixed Navigation
                 <div class="row">
                     <div class="col-md-12">
                         <nav class="navbar navbar-expand-md">
-                            <a class="navbar-brand" href="http://localhost:4000">
+                            <a class="navbar-brand" href="http://localhost:4000" target="_self">
                                 <img src="/images/muku_logo_white.png" alt="logo" width="100" class="text-left">
                             </a>
 
-                            <div class="opacity-nav">
-                                <div class="menu-index" id="buttons" style="z-index:999999">
+                        <div id="opacity-nav">
+                            
+                            <ul class="menu-fullscreen">
+                                <li class="nav-item dropdown active">
+                                    <a class="nav-link" href="http://localhost:4000" target="_self" onclick="document.getElementById('opacity-nav').style.display = 'none';">home.</a>
+                                </li>
+
+                                <li class="nav-item">
+                                        <a class="nav-link" href="#about"  target="_self" onclick="document.getElementById('opacity-nav').style.display = 'none';">about.</a>
+                                    </li>
+                                  <!--<li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#services" target="_self" id="navbarDropdown" role="button" data-toggle="dropdown" ></a>services.</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" target="_self" href="404.html">Strategic Transformation.</a>
+                                        <a class="dropdown-item" target="_self" href="404.html">Business Design.</a>
+                                        <a class="dropdown-item" target="_self" href="404.html">Product Service Innovation.</a>
+                                    </div>
+                                </li>
+                               <li class="nav-item">
+                                    <a class="nav-link"  href="/cases.html" target="_self">cases.</a>
+                                </li>  -->
+                                <li class="nav-item">
+                                    <a class="nav-link"  href="#contact"  target="_self" onclick="document.getElementById('opacity-nav').style.display = 'none';">contact.</a>
+                                </li>
+                                <!-- <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" target="_self" id="navbarDropdown" role="button" data-toggle="dropdown">articles.</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" target="_self" href="/404.html">free tools.</a>
+                                        <a class="dropdown-item" target="_self" href="/404.html">blog.</a>
+                                    </div>
+                                </li> -->
+                            </ul>
+
+                            <div class="menu-index" id="buttons" style="z-index:999999" onclick="document.getElementById('opacity-nav').style.display = 'none';">
                                 <i class="fa fa-close"></i>
                             </div>
-                        
-                            <ul class="menu-fullscreen">
-                              <li><a class="ajax-link" href="single.html">Home</a></li>
-                              <li><a class="ajax-link" href="projects.html">Projects</a></li>
-                              <li><a class="ajax-link" href="about-us.html">About us</a></li>
-                              <li><a class="ajax-link" href="contact.html">Contact</a></li>
-                            </ul>
                         </div>
                         
-                        
-                          <!--Header-->
-                          <header id="fullscreen">
-                                <div class="menu-index" id="button">
-                                    <i class="fa fa-bars"></i>
-                                </div>
-                          </header>
-
+                        <!--Header-->
+                        <header id="fullscreen">
+                            <div class="menu-index" id="button" onclick="document.getElementById('opacity-nav').style.display = 'block';">
+                                <i class="fa fa-bars"></i>
+                            </div>
+                        </header>
 
                             <div class="navbar-collapse collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item dropdown active">
-                                        <a class="nav-link" href="http://localhost:4000" target="_self">home.&nbsp;</a>
+                                        <a class="nav-link" href="http://localhost:4000" target="_self">home.</a>
                                     </li>
 
                                     <li class="nav-item">
@@ -525,9 +546,9 @@ Contact Section
         </div>
       </div>
     </div> 
-    <!-- https://formspree.io/info@mukundkulur.com -->
+    <!-- -->
     <div class="col-12 col-md-6 contact-form pt-2">
-      <form id="contact-form" method="post" action="validateForm()" role="form">
+      <form id="contact-form" method="post" action="https://formspree.io/info@mukundkulur.com" role="form">
           <div class="form-group">
             <input type="text" placeholder="Your Name" class="form-control" name="name" id="name" />
           </div>					
@@ -547,7 +568,7 @@ Contact Section
             Sorry, don't know what happened. Try later :(
           </div>					
           <div id="cf-submit" class="pt-1">
-            <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit" method="post" onsubmit="return validateForm()" />
+            <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit" />
           </div>											
         </form>
     </div>
@@ -617,15 +638,13 @@ function validateForm() {
                         Coimbatore 641002
                     </p>
                     <p>
-                        <a href="mailto:mukund.kulur@gmail.com" data-rel="external">
-                            mukund.kulur@gmail.com <br></a>
+                        <a href="mailto:info@mukundkulur.com" data-rel="external">
+                            info@mukundkulur.com <br></a>
                     </p>
                     <p>
                         Mobile:<a href="tel:+91 9566724681" data-rel="external">
                         (+91) 9566724681 <br></a>
                     </p>
-                    
-
 
                 </div>
                 <!-- End of .col-sm-3 -->
