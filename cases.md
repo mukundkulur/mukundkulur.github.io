@@ -63,13 +63,13 @@ Free tools section
                 <div class="cases text-center">
                     <div class="case-photo">
                         <!-- case photo -->
-                        <img class="img-fluid" src="images/portfolio/Wartsila.jpg" alt="">
+                        <img class="img-fluid" src="{{site.url}}/images/case-index/Wartsila.jpg" alt="">
                         <!-- /case photo -->
                     </div>
                     <!-- case name & designation -->
                     <div class="case-content">
                         <h3>Wärtsilä: Future of Marine Services</h3>
-                        <p></p>
+                        <p>Developed future scenarios and create a business case for digitalisation of marine services</p>
                     </div>
                     <!-- /case name & designation -->
                     <div class="case-more">
@@ -83,7 +83,7 @@ Free tools section
                 <div class="cases text-center">
                     <div class="case-photo">
                         <!-- case photo -->
-                        <img class="img-fluid" src="images/portfolio/Valuecycle.jpg" alt="">
+                        <img class="img-fluid" src="{{site.url}}/images/case-index/Valuecycle.jpg" alt="">
                         <!-- /case photo -->
                     </div>
                     <!-- case name & designation -->
@@ -103,7 +103,7 @@ Free tools section
                 <div class="cases text-center" id="Robit">
                     <div class="case-photo">
                         <!-- case photo -->
-                        <img class="img-fluid" src="images/portfolio/HoviRuoka.jpg" alt="">
+                        <img class="img-fluid" src="{{site.url}}/images/case-index/HoviRuoka.jpg" alt="">
                         <!-- /case photo -->
                     </div>
                     <!-- case name & designation -->
@@ -123,7 +123,7 @@ Free tools section
                 <div class="cases text-center" id="ThirdEye">
                     <div class="case-photo">
                         <!-- case photo -->
-                        <img class="img-fluid" src="images/portfolio/thirdeye.jpg" alt="">
+                        <img class="img-fluid" src="{{site.url}}/images/case-index/thirdeye.jpg" alt="">
                         <!-- /case photo -->
                     </div>
                     <!-- case name & designation -->

@@ -9,7 +9,6 @@ Hero Area
 -->
 <section class="hero-area header-area">
   <div id="banner-img">
-    <img src="{{site.url}}/images/cases/wartsila/0.jpg">
   </div>
   
   <div class="container">
@@ -20,8 +19,16 @@ Hero Area
                 <div class="block text-center">
                     <p><h1>{{ page.title }}</h1></p>
                     <span class="borderline"></span>
-                    <p>{{ page.categories }}</p>
                     <p>{{ page.tags }}</p>
+                    <p>{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+                            <a href="/">Home</a>
+                            {% for crumb in crumbs offset: 1 %}
+                              {% if forloop.last %}
+                                / {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
+                              {% else %}
+                                / <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+                              {% endif %}
+                            {% endfor %}</p>
                 </div>
             </div>
         </div>

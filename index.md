@@ -24,7 +24,7 @@ Hero Area
     </div>
 <div class="col-md-6">
 <div class="block">
-<p>In the rapidly changing world, businesses are ill equipped to navigate the volatile markets, and uncertain futures. The processes and structures established for creating success prevent them from innovating. The ambiguity and complexity associated with innovations act as a barrier to comfortably manage it.  </p>
+<p>In the rapidly changing world, businesses are ill equipped to navigate the volatile markets and uncertain futures. The processes and structures established for creating success prevent them from innovating. Moreover, the ambiguity and complexity associated with innovations act as a barrier to comfortably manage it.  </p>
 <p>Businesses need to '<b class="boldpink">Rethink</b>' and '<b class="boldpink">Redesign</b>' their approach to compete in the ever-changing market and be able to accelerate their growth. By empowering teams with right tools, methods, and processes I enable them to build effective strategies, and instill an innovative culture that is customer-centered and future-proof.</p> 
 </div>
 </div>
