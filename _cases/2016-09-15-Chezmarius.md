@@ -1,13 +1,14 @@
 ---
 title: Chezmarius
 date: 2016-09-15 00:00:00 Z
-permalink: "/work/Chezmarius.html"
+permalink: "/cases/Chezmarius.html"
 categories:
 - Design Research
 tags:
 - Strategy
 - Research
-layout: post
+layout: case-template 
+photo: Chezmarius
 ---
 
 <div class="main-column">

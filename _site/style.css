@@ -1463,10 +1463,10 @@ NAVIGATION OPACITY
   ==================================================================*/
 .cases {
     /* background: #fff; */
-    margin-bottom: 75px;
-    margin: 0 20px;
-    height: 400px;
+    margin: 50px 20px;
+    height: 500px;
     max-height: 700px;
+    display: inline-block;
  }
 
 .cases img {

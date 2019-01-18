@@ -1,13 +1,14 @@
 ---
 title: Reconnect
 date: 2017-01-07 00:00:00 Z
-permalink: "/work/Reconnect.html"
+permalink: "/cases/Reconnect.html"
 categories:
 - Innovation
 tags:
 - Strategy
 - Innovation
-layout: post
+layout: case-template 
+photo: Reconnect
 ---
 
 <div class="main-column">

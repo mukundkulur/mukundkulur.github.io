@@ -17,10 +17,13 @@ Hero Area
         <div class="row">
             <div class="col-12 title">
                 <div class="block text-center">
-                    <p><h1>{{ page.title }}</h1></p>
+                    <h1>{{ page.title }}</h1>
                     <span class="borderline"></span>
-                    <p>{{ page.tags }}</p>
-                    <p>{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+                    <h4 style="font-weight: 100;"><a href="">{{ page.category }}</a></h4> <br>
+                    <p> {% for tags in page.tags %}
+                    {{ tags }} &emsp;
+                    {% endfor %}</p>
+                    <h4 style="font-weight: 100;">{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
                             <a href="/">Home</a>
                             {% for crumb in crumbs offset: 1 %}
                               {% if forloop.last %}
@@ -28,13 +31,13 @@ Hero Area
                               {% else %}
                                 / <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
                               {% endif %}
-                            {% endfor %}</p>
+                            {% endfor %}
+                    </h4>
                 </div>
             </div>
         </div>
     </div>
 </section> 
-
 
 {{ page.content}}
 

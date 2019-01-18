@@ -1,13 +1,14 @@
 ---
 title: Mentoralley
 date: 2015-07-31 00:00:00 Z
-permalink: "/work/Mentoralley.html"
+permalink: "/cases/Mentoralley.html"
 categories:
 - Digital Design
 tags:
 - Website
 - Service
-layout: post
+layout: case-template 
+photo: Mentoralley
 ---
 
 <div class="main-column">

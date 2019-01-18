@@ -6,6 +6,8 @@ collections:
     title: Cases
     output: true
     permalink: cases
+    layout: case-template 
+photo:
   blog:
     title: Blog
     output: true

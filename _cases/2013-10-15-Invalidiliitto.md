@@ -1,13 +1,14 @@
 ---
 title: Invalidiliitto
 date: 2013-10-15 00:00:00 Z
-permalink: "/work/invalidiliitto.html"
+permalink: "/cases/invalidiliitto.html"
 categories:
 - Design Research
 tags:
 - Product
 - UX
-layout: post
+layout: case-template 
+photo: Invalidiliitto
 ---
 
 <div class="main-column">

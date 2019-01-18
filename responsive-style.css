@@ -68,6 +68,11 @@
     .title p {
         width: 80%;
     }
+
+    .cases{
+        display: block;
+        margin: 200px;
+    }
 }
 
 @media (max-width: 400px) {

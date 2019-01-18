@@ -1,13 +1,14 @@
 ---
 title: HoviRuoka
 date: 2015-06-20 00:00:00 Z
-permalink: "/work/HoviRuoka.html"
+permalink: "/cases/HoviRuoka.html"
 categories:
 - Product
 tags:
 - Strategy
 - Package
-layout: post
+layout: case-template 
+photo: HoviRuoka
 ---
 
 <div class="main-column">

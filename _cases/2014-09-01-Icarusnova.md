@@ -1,14 +1,15 @@
 ---
 title: icarusnova
 date: 2014-09-01 00:00:00 Z
-permalink: "/work/icarusnova.html"
+permalink: "/cases/icarusnova.html"
 categories:
 - Product
 tags:
 - Product
 - Management
 - Strategy
-layout: post
+layout: case-template 
+photo: icarusnova
 ---
 
 <div class="main-column">

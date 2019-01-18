@@ -1,7 +1,7 @@
 ---
 title: ValueCycle
 date: 2015-11-20 00:00:00 Z
-permalink: "/work/ValueCycle.html"
+permalink: "/cases/ValueCycle.html"
 categories:
 - Strategy
 tags:
@@ -9,7 +9,8 @@ tags:
 - Strategy
 - ROI
 - Tools
-layout: post
+layout: case-template 
+photo: ValueCycle
 ---
 
 <div class="main-column">

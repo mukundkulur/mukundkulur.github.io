@@ -58,87 +58,29 @@ Free tools section
             </div>
         </div>
         <div class="row">
-            <!-- case -->
+        {% for cases in site.cases %}
+             <!-- case -->
             <div class="col-12 col-md-3 col-sm-6">
                 <div class="cases text-center">
                     <div class="case-photo">
                         <!-- case photo -->
-                        <img class="img-fluid" src="{{site.url}}/images/case-index/Wartsila.jpg" alt="">
+                        <img class="img-fluid" src="{{site.url}}/images/case-index/{{ cases.photo }}.jpg" alt="">
                         <!-- /case photo -->
                     </div>
                     <!-- case name & designation -->
                     <div class="case-content">
-                        <h3>Wärtsilä: Future of Marine Services</h3>
-                        <p>Developed future scenarios and create a business case for digitalisation of marine services</p>
+                        <h3>{{ cases.title }}</h3>
+                        <p>{{ cases.date | date_to_string }}</p>
+                        <p>{{ cases.excerpt }}</p>
                     </div>
                     <!-- /case name & designation -->
                     <div class="case-more">
-                        <a class="btn btn-main" href="{{ site.baseurl }}/cases/wartsila.html">Read more</a>
+                        <a class="btn btn-main" href="{{ site.baseurl }}{{ cases.permalink }}">Read more</a>
                     </div>
                 </div>
             </div>
             <!-- end case -->
-            <!-- case -->
-            <div class="col-12 col-md-3 col-sm-6">
-                <div class="cases text-center">
-                    <div class="case-photo">
-                        <!-- case photo -->
-                        <img class="img-fluid" src="{{site.url}}/images/case-index/Valuecycle.jpg" alt="">
-                        <!-- /case photo -->
-                    </div>
-                    <!-- case name & designation -->
-                    <div class="case-content">
-                        <h3>A framework for evaluating ROI</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
-                    </div>
-                    <!-- /case name & designation -->
-                    <div class="case-more">
-                        <a class="btn btn-main" href="#">Read more</a>
-                    </div>
-                </div>
-            </div>
-            <!-- end case -->
-            <!-- case -->
-            <div class="col-12 col-md-3 col-sm-6">
-                <div class="cases text-center" id="Robit">
-                    <div class="case-photo">
-                        <!-- case photo -->
-                        <img class="img-fluid" src="{{site.url}}/images/case-index/HoviRuoka.jpg" alt="">
-                        <!-- /case photo -->
-                    </div>
-                    <!-- case name & designation -->
-                    <div class="case-content">
-                        <h3>Robit: Brand Strategy</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
-                    </div>
-                    <!-- /case name & designation -->
-                    <div class="case-more">
-                        <a class="btn btn-main" href="#">Read more</a>
-                    </div>
-                </div>
-            </div>
-            <!-- end case -->
-            <!-- case -->
-            <div class="col-12 col-md-3 col-sm-6 ">
-                <div class="cases text-center" id="ThirdEye">
-                    <div class="case-photo">
-                        <!-- case photo -->
-                        <img class="img-fluid" src="{{site.url}}/images/case-index/thirdeye.jpg" alt="">
-                        <!-- /case photo -->
-                    </div>
-                    <!-- case name & designation -->
-                    <div class="case-content">
-                        <h3>ThirdEye</h3>
-                        <span><i><span></span></i></span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
-                    </div>
-                    <!-- /case name & designation -->
-                    <div class="case-more">
-                        <a class="btn btn-main" href="#">Read more</a>
-                    </div>
-                </div>
-            </div>
-            <!-- end case -->
+        {% endfor %}
         </div>
         <!-- End row -->
     </div>
@@ -181,8 +123,9 @@ Contact Section
         </div>
       </div>
     </div> 
+    <!-- -->
     <div class="col-12 col-md-6 contact-form pt-2">
-      <form id="contact-form" method="post" action="sendmail.php" role="form">
+      <form id="contact-form" method="post" action="https://formspree.io/info@mukundkulur.com" role="form">
           <div class="form-group">
             <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
           </div>					
