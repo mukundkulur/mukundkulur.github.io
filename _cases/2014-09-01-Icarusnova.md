@@ -9,7 +9,7 @@ tags:
 - Management
 - Strategy
 layout: case-template 
-photo: icarusnova
+photo-thumb: icarusnova
 ---
 
 <div class="main-column">

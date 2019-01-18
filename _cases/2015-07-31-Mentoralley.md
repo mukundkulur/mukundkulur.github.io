@@ -8,7 +8,7 @@ tags:
 - Website
 - Service
 layout: case-template 
-photo: Mentoralley
+photo-thumb: Mentoralley
 ---
 
 <div class="main-column">

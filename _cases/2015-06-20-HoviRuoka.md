@@ -8,7 +8,7 @@ tags:
 - Strategy
 - Package
 layout: case-template 
-photo: HoviRuoka
+photo-thumb: HoviRuoka
 ---
 
 <div class="main-column">

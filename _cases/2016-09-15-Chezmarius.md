@@ -8,7 +8,7 @@ tags:
 - Strategy
 - Research
 layout: case-template 
-photo: Chezmarius
+photo-thumb: Chezmarius
 ---
 
 <div class="main-column">

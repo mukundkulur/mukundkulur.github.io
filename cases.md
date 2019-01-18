@@ -64,7 +64,7 @@ Free tools section
                 <div class="cases text-center">
                     <div class="case-photo">
                         <!-- case photo -->
-                        <img class="img-fluid" src="{{site.url}}/images/case-index/{{ cases.photo }}.jpg" alt="">
+                        <img class="img-fluid" src="{{site.url}}/images/case-index/{{ cases.photo-thumb }}.jpg" alt="">
                         <!-- /case photo -->
                     </div>
                     <!-- case name & designation -->

@@ -8,7 +8,7 @@ tags:
 - Strategy
 - Innovation
 layout: case-template 
-photo: Reconnect
+photo-thumb: Reconnect
 ---
 
 <div class="main-column">

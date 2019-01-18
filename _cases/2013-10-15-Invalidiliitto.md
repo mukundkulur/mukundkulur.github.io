@@ -8,7 +8,7 @@ tags:
 - Product
 - UX
 layout: case-template 
-photo: Invalidiliitto
+photo-thumb: Invalidiliitto
 ---
 
 <div class="main-column">

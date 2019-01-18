@@ -10,7 +10,7 @@ tags:
 - ROI
 - Tools
 layout: case-template 
-photo: ValueCycle
+photo-thumb: ValueCycle
 ---
 
 <div class="main-column">
