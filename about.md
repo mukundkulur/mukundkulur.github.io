@@ -60,7 +60,15 @@ Hero Area
 					<h4>Little more info</h4>
 					<h2>About Me.</h2>
 					<span class="borderline"></span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!</p>
+					<p class="text-justify">Mukund joined FORGE in November 2018 as Innovation Manager. With 4+ years of experience as Strategic Design & Innovation Consultant, Mukund is on continuously look out for ideas, concepts and design strategies to help the innovators and startups develop a solution that is viable, feasible and desirable.</p><br>
+<p class="text-justify">
+He looks after the seamless execution of iTOOLS, tweak them with the ever changing innovation landscape, and ensure that the innovators & startups are able to effectively apply the tools & techniques to catalyse the entire process and mitigate the risks in their startup journey.</p><br>
+<p class="text-justify">
+Mukund is also working on Sandbox, a massive compendium of Challenge briefs curated by Team FORGE with a mission to ignite young minds design and build prototypes, and jumpstart their tech startups. He also co-ordinates the operation and ensures effective outcomes in the FMPI program[Fellowship in Managing Product Innovations].</p><br>
+<p class="text-justify">
+He has played diverse roles in leading Corporates viz., Innovation Consultant at Nokia; Strategy Consultant at Robit Plc,Finland; Strategic Foresight & Innovation Consultant at Rohrbeck Heger GmbH, Berlin; Design Engineer at Cyient; Associate Engineer at Cameron. He also founded ThirdEye, a product startup focused on social innovation by designing assistive devices for the visually impaired and was recognised as the most 'Investor Ready Startup' at Summer of Startups.</p><br>
+<p class="text-justify">
+Mukund received his BE specializing in Mechanical engineering from Anna University, Chennai and his M.Sc. in International Design Business Management from Aalto University, Finland. He also holds a Diploma degree in Innovation Management from European Innovation Academy. </p><br>
 				</div>
 			</div>
 		</div>
