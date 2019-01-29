@@ -7,39 +7,40 @@ Hero Area
 ================= 
 -->
 <!-- id="particles-js" -->
-<section class="hero-area front" >
-  <div id="particles-js"></div>
-    <div class="container" id="home">
-      <div class="row">
-        <div class="col-12 hero-logo">
-          <a class="navbar-brand" href="{{ site.url }}">
-            <img src="/images/muku_logo_white.png" alt="logo" width="100" class="text-left">
-          </a>
-        </div>
-      <div class="col-md-6">
-        <div class="block">
+<section class="hero-area" >
+<div id="particles-js"></div>
+
+<div class="container" id="home">
+<div class="row">
+<div class="col-12 hero-logo">
+ <a class="navbar-brand" href="{{ site.url }}">
+    <img src="/images/muku_logo_white.png" alt="logo" width="100" class="text-left">
+  </a>
+</div>
+    <div class="col-md-6">
+      <div class="block">
           <p><h1>Innovation is too <br> important to be <br>left to chance.</h1></p>
       </div>
     </div>
-    <div class="col-md-6">
-      <div class="block">
-        <p>In the rapidly changing world, businesses are ill equipped to navigate the volatile markets and uncertain futures. The processes and structures established for creating success prevent them from innovating. Moreover, the ambiguity and complexity associated with innovations act as a barrier to comfortably manage it.  </p>
-        <p>Businesses need to '<b class="boldpink">Rethink</b>' and '<b class="boldpink">Redesign</b>' their approach to compete in the ever-changing market and be able to accelerate their growth. By empowering teams with right tools, methods, and processes I enable them to build effective strategies, and instill an innovative culture that is customer-centered and future-proof.</p> 
-      </div>
-    </div>
-    <div class="col-md-6 pb-5 pt-2">
-      <a href="#contact" target="" class="btn-main btn">Contact Me</a> 
-    </div>
-  </div>
-  <div class="row"> 
-    <div class="text-center col-12">
-      <div class="col-1 mr-auto ml-auto text-center">
-        <a href="#aboutsection">
-          <b class="boldpink text-center fa fa-chevron-down"></b>
-        </a>
-      </div>
-    </div>
-  </div>
+<div class="col-md-6">
+<div class="block">
+<p>In the rapidly changing world, businesses are ill equipped to navigate the volatile markets and uncertain futures. The processes and structures established for creating success prevent them from innovating. Moreover, the ambiguity and complexity associated with innovations act as a barrier to comfortably manage it.  </p>
+<p>Businesses need to '<b class="boldpink">Rethink</b>' and '<b class="boldpink">Redesign</b>' their approach to compete in the ever-changing market and be able to accelerate their growth. By empowering teams with right tools, methods, and processes I enable them to build effective strategies, and instill an innovative culture that is customer-centered and future-proof.</p> 
+</div>
+</div>
+<div class="col-md-6 pb-5 pt-2">
+<a href="#contact" target="" class="btn-main btn">Contact Me</a> 
+</div>
+</div>
+<div class="row"> 
+<div class="text-center col-12">
+<div class="col-1 mr-auto ml-auto text-center">
+<a href="#about">
+    <b class="boldpink text-center fa fa-chevron-down"></b>
+</a>
+</div>
+</div>
+</div>
 </div>
 </section> 
 <!-- End of section -->
@@ -50,7 +51,7 @@ Hero Area
 About Section
 ================= 
 -->
-<section class="about-2 section" id="aboutsection">
+<section class="about-2 section" id="about">
   <div class="container ">
     <div class="row">
       <div class="col-12 col-md-6">

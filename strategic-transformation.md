@@ -1,6 +1,6 @@
 ---
 title: muku. | About
-permalink: "/about.html"
+permalink: "/strategic-transformation.html"
 layout: default
 ---
 
@@ -11,37 +11,39 @@ Hero Area
 -->
 <!-- id="particles-js" -->
 <style>
-#about{
-    background: url(/images/home/strategy-2.jpg) no-repeat;
+#hero{
+    background: url(/images/services/strategy-banner.jpg) no-repeat;
     background-size: 100%; 
-	height: 80%; 
-	/* 	-webkit-mask-image: linear-gradient(transparent, black 80%, transparent );
-	mask-image: linear-gradient(black 80%,  transparent);  */
-  z-index:10;
+    height:90%; 
+     -webkit-mask-image: linear-gradient(bottom-right, black, transparent );
+	mask-image: linear-gradient(bottom-right, transparent 25%, black);  
+    z-index:10;
 }
 
-#about .block {
+#hero .block {
     color: #1f2532;
     width: 100%;
+    margin-top:50px;
     padding-left: 30px auto;
+    z-index:11;
 }
 </style>
 
-<section class="hero-area" id="about">
+<section class="hero-area" id="hero">
     <div class="container"> 
       <div class="row ">
       <div class="col-md-6">
     </div>
-    <div class="col-md-6 pb-5 pt-2">
+    <div class="col-md-6 mt-5">
     	<div class="block">
-          <p><h1>A multidisciplinary approach to <br>problem solving </h1></p>
+          <p><h1>Future-proofing organisations for sustainable growth.</h1></p>
       	</div>
     </div>
   </div><br><br><br>
   <div class="row"> 
     <div class="text-center col-12">
       <div class="col-1 mr-auto ml-auto text-center">
-        <a href="#about">
+        <a href="#section1">
           <b class="boldpink text-center fa fa-chevron-down"></b>
         </a>
       </div>
@@ -52,15 +54,38 @@ Hero Area
 <!-- End of section -->
 
 
+<!--
+=================
+About Section
+================= 
+-->
+<section class="about-2 section" id="section1">
+  <div class="container ">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <h2>Insights to build and maximise the innovation capabilities.</h2>
+      </div>
+      <div class="col-12 col-md-6">
+        <p>Operating at higher levels of uncertainty and ambiguity, I draw on my experiences to combine the lean philosopy of startups, with insightful innovation framework to help businesses leverage creativity into value - faster and better than in the past.</p>
+        <p>Executing design thinking at the strategic levels I map different opportunities and design transformational strategies to guide organisations in managing innovation and new business developments. Taking a multi-disciplinary approach I enable teams to integrate their insights and bring together their different capabilities to move faster from concept to market success. </p>
+      </div>
+    </div> 
+    <!-- End row -->
+  </div> 
+  <!-- End container -->
+</section> 
+<!-- End section -->
+
+
 <section class="about-mission-vision section">
 	<div class="container">
 		<div class="row">
 			<div class="col">
 				<div class="title">
-					<h4>Little more info</h4>
-					<h2>About Me.</h2>
+					<h4>See the future</h4>
+					<h2>FORECAST.</h2>
 					<span class="borderline"></span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!</p>
+					<p>Even before investing, see how the latest trends influence the future and exploit it to gain advantage over the market.</p>
 				</div>
 			</div>
 		</div>

@@ -55,14 +55,14 @@ End Preloader
 Fixed Navigation
 ==================================== -->
         <section class="header navigation" data-pgc-define="navigator" data-pgc-define-name="navigation bar" data-pgc-define-photo-preview-only>
-            <div class="container">
+                <div class="nav-bg"></div>
+                <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <nav class="navbar navbar-expand-md">
                             <a class="navbar-brand" href="http://localhost:4000" target="_self">
                                 <img src="/images/muku_logo_white.png" alt="logo" width="100" class="text-left">
                             </a>
-
                         <div id="opacity-nav">
                             
                             <ul class="menu-fullscreen">
@@ -71,7 +71,7 @@ Fixed Navigation
                                 </li>
 
                                 <li class="nav-item">
-                                        <a class="nav-link" href="#about"  target="_self" onclick="document.getElementById('opacity-nav').style.display = 'none';">about.</a>
+                                        <a class="nav-link" href="#aboutsection"  target="_self" onclick="document.getElementById('opacity-nav').style.display = 'none';">about.</a>
                                     </li>
                                   <!--<li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#services" target="_self" id="navbarDropdown" role="button" data-toggle="dropdown" ></a>services.</a>
@@ -107,37 +107,42 @@ Fixed Navigation
                                 <i class="fa fa-bars"></i>
                             </div>
                         </header>
-
                             <div class="navbar-collapse collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item dropdown active">
                                         <a class="nav-link" href="http://localhost:4000" target="_self">home.</a>
                                     </li>
 
-                                    <li class="nav-item">
+                                    <!-- <li class="nav-item">
                                             <a class="nav-link" href="#about"  target="_self">about.</a>
-                                        </li>
+                                        </li> -->
                                     <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#services" target="_self" id="navbarDropdown" role="button" data-toggle="dropdown" >services.</a>
                                             <div class="dropdown-menu">
-                                                <a class="dropdown-item" target="_self" href="404.html">Strategic Transformation.</a>
-                                                <a class="dropdown-item" target="_self" href="404.html">Business Design.</a>
-                                                <a class="dropdown-item" target="_self" href="404.html">Product Service Innovation.</a>
+                                                <a class="dropdown-item" target="_self" href="strategic-transformation.html">Strategic Transformation.</a>
+                                                <a class="dropdown-item" target="_self" href="biz-design.html">Business Design.</a>
+                                                <a class="dropdown-item" target="_self" href="psinnovation.html">Product Service Innovation.</a>
                                             </div>
                                         </li>
-                                    <!-- <li class="nav-item">
-                                        <a class="nav-link"  href="/cases.html" target="_self">cases.</a>
-                                    </li>  -->
+                                    <li class="nav-item">
+                                        <a class="nav-link"  href="/cases/index.html" target="_self">cases.</a>
+                                    </li> 
                                     <li class="nav-item">
                                         <a class="nav-link"  href="#contact"  target="_self">contact.</a>
                                     </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link"  href="/blog.html"  target="_self">blog.</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link"  href="/resources.html"  target="_self">resources.</a>
+                                    </li><!-- 
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" target="_self" id="navbarDropdown" role="button" data-toggle="dropdown">articles.</a>
+                                        <a class="nav-link dropdown-toggle" href="#" target="_self" id="navbarDropdown" role="button" data-toggle="dropdown">resources.</a>
                                         <div class="dropdown-menu">
                                             <a class="dropdown-item" target="_self" href="/404.html">free tools.</a>
                                             <a class="dropdown-item" target="_self" href="/404.html">blog.</a>
                                         </div>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </div>
                         </nav>
@@ -147,41 +152,61 @@ Fixed Navigation
         </section>
 <body>
 
-  <div id="primary" class="content-area">
-    <main id="main" class="site-main" role="main">
-    </main><!-- .site-main -->
-</div>
-<!-- .content-area -->
-
-<!--
+  <!--
 =================
-About Section
+Hero Area
 ================= 
 -->
-<section class="hero-area section bg-gray" id="about">
-	<div class="container">
-		<div class="row">
-			<div class="col-12 col-md-5">
-				<h2>We have explored the digital landscape with passion for a long time</h2>
-			</div>
-			<div class="col-12 col-md-7">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste soluta, nihil dolorem?</p>
-			</div>
-			
-		</div> 		<!-- End row -->
-	</div>   	<!-- End container -->
+<!-- id="particles-js" -->
+<style>
+#about{
+    background: url(/images/home/strategy-2.jpg) no-repeat;
+    background-size: 100%; 
+	height: 80%; 
+	/* 	-webkit-mask-image: linear-gradient(transparent, black 80%, transparent );
+	mask-image: linear-gradient(black 80%,  transparent);  */
+  z-index:10;
+}
+
+#about .block {
+    color: #1f2532;
+    width: 100%;
+    padding-left: 30px auto;
+}
+</style>
+
+<section class="hero-area" id="about">
+    <div class="container"> 
+      <div class="row ">
+      <div class="col-md-6">
+    </div>
+    <div class="col-md-6 pb-5 pt-2">
+    	<div class="block">
+          <p><h1>A multidisciplinary approach to <br />problem solving </h1></p>
+      	</div>
+    </div>
+  </div><br /><br /><br />
+  <div class="row"> 
+    <div class="text-center col-12">
+      <div class="col-1 mr-auto ml-auto text-center">
+        <a href="#about">
+          <b class="boldpink text-center fa fa-chevron-down"></b>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 </section>
-<p><!-- End section --></p>
+<!-- End of section -->
 
 <section class="about-mission-vision section">
 	<div class="container">
 		<div class="row">
 			<div class="col">
 				<div class="title">
-					<h4>Little more brief</h4>
-					<h2>About Us.</h2>
-					<span class="border"></span>
+					<h4>Little more info</h4>
+					<h2>About Me.</h2>
+					<span class="borderline"></span>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!</p>
 				</div>
 			</div>
@@ -250,206 +275,116 @@ About Section
 	</div>
 </section>
 
-<!-- Start Our Team
-=========================================== -->
-<section class="team section bg-gray" id="team">
-	<div class="container">
-		<div class="row">
-			<div class="col">
-				<div class="title text-center">
-					<h4>TEAM MEMBER</h4>
-					<h2>Our Team.</h2>
-					<span class="border"></span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!</p>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<!-- team member -->
-			<div class="col-12 col-md-3 col-sm-6">
-				<div class="team-member text-center">
-					<div class="member-photo">
-						<!-- member photo -->
-						<img class="img-fluid" src="images/team/member-1.jpg" alt="team people" />
-						<!-- /member photo -->
-					</div>
-					<!-- member name & designation -->
-					<div class="member-content">
-						<h3>Shawshank Redemption</h3>
-						<span>Head Of Marketing</span>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
-						<ul class="list-inline">
-							<li class="list-inline-item">
-								<a href="#">
-									<i class="tf-ion-social-facebook"></i>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a href="#">
-									<i class="tf-ion-social-twitter"></i>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a href="#">
-									<i class="tf-ion-social-google-outline"></i>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a href="#">
-									<i class="tf-ion-social-dribbble"></i>
-								</a>
-							</li>
-						</ul>
-					</div>
-					<!-- /member name & designation -->
-				</div>
-			</div>
-			<!-- end team member -->
-
-<!-- team member -->
-<div class="col-12 col-md-3 col-sm-6">
-	<div class="team-member text-center">
-		<div class="member-photo">
-			<!-- member photo -->
-			<img class="img-fluid" src="images/team/member-2.jpg" alt="team people" />
-			<!-- /member photo -->
-		</div>
-		<!-- member name & designation -->
-		<div class="member-content">
-			<h3>Luis Anthon</h3>
-			<span>Web Developer</span>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
-			<ul class="list-inline">
-				<li class="list-inline-item">
-					<a href="#">
-						<i class="tf-ion-social-facebook"></i>
-					</a>
-				</li>
-				<li class="list-inline-item">
-					<a href="#">
-						<i class="tf-ion-social-twitter"></i>
-					</a>
-				</li>
-				<li class="list-inline-item">
-					<a href="#">
-						<i class="tf-ion-social-google-outline"></i>
-					</a>
-				</li>
-				<li class="list-inline-item">
-					<a href="#">
-						<i class="tf-ion-social-dribbble"></i>
-					</a>
-				</li>
-			</ul>
-		</div>
-		<!-- /member name & designation -->
-	</div>
-</div>
-<!-- end team member -->
-
-<!-- team member -->
-<div class="col-12 col-md-3 col-sm-6">
-	<div class="team-member text-center">
-		<div class="member-photo">
-			<!-- member photo -->
-			<img class="img-fluid" src="images/team/member-3.jpg" alt="team people" />
-			<!-- /member photo -->
-		</div>
-		<!-- member name & designation -->
-		<div class="member-content">
-			<h3>Jonathon Andrew</h3>
-			<span>Head Of Management</span>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
-			<ul class="list-inline">
-				<li class="list-inline-item">
-					<a href="#">
-						<i class="tf-ion-social-facebook"></i>
-					</a>
-				</li>
-				<li class="list-inline-item">
-					<a href="#">
-						<i class="tf-ion-social-twitter"></i>
-					</a>
-				</li>
-				<li class="list-inline-item">
-					<a href="#">
-						<i class="tf-ion-social-google-outline"></i>
-					</a>
-				</li>
-				<li class="list-inline-item">
-					<a href="#">
-						<i class="tf-ion-social-dribbble"></i>
-					</a>
-				</li>
-			</ul>
-		</div>
-		<!-- /member name & designation -->
-	</div>
-</div>
-<!-- end team member -->
-<!-- team member -->
-<div class="col-12 col-md-3 col-sm-6">
-	<div class="team-member text-center">
-		<div class="member-photo">
-			<!-- member photo -->
-			<img class="img-fluid" src="images/team/member-4.jpg" alt="team people" />
-			<!-- /member photo -->
-		</div>
-
-		<!-- member name & designation -->
-		<div class="member-content">
-			<h3>Michael Jonson</h3>
-			<span>Head Of Management</span>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
-			<ul class="list-inline">
-				<li class="list-inline-item">
-					<a href="#">
-						<i class="tf-ion-social-facebook"></i>
-					</a>
-				</li>
-				<li class="list-inline-item">
-					<a href="#">
-						<i class="tf-ion-social-twitter"></i>
-					</a>
-				</li>
-				<li class="list-inline-item">
-					<a href="#">
-						<i class="tf-ion-social-google-outline"></i>
-					</a>
-				</li>
-				<li class="list-inline-item">
-					<a href="#">
-						<i class="tf-ion-social-dribbble"></i>
-					</a>
-				</li>
-			</ul>
-		</div>
-		<!-- /member name & designation -->
-	</div>
-</div>
-<!-- end team member -->
-</div>
-<!-- End row -->
-</div>
-<!-- End container -->
-</section>
-<!-- End section -->
-
 <!--
-Start Call To Action
-==================================== -->
-<section class="call-to-action section">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<h2>Let's Create Something Together</h2>
-				<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br /> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit.</p>
-				<a href="" class="btn btn-main">Contact Us</a>
-			</div>
-		</div> 		<!-- End row -->
-	</div>   	<!-- End container -->
+=================
+Contact Section
+================= 
+-->
+<section class="contact-us section bg-gray" id="contact">
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col">
+        <div class="title text-center">
+          <h4>Drop a note</h4>
+          <h2>ENQUIRIES.</h2>
+          <span class="borderline"></span>
+          <p>
+          No two companies needs are the same. That's why I customize services on the need basis for each startup and any multi-nationals around the globe. Contact me to discuss how we can together find the right package to meet your needs. 
+          No strings attached. <br /><!-- 
+          Do you have a problem you need to define?<br>
+          Do you have an idea to take forward? <br>
+          Do you need help to rethink your strategy?<br>
+          Do you have a problem in taking your product to market?<br> -->
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End row -->
+
+  <!-- Map & Contact Form -->
+  <div class="row">
+    <div id="map" class="col-12 col-md-6">
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=78%20kavya%20fort%2C%20east%20lokamanya%20street%20rspuram%20coimbatore&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </div>
+      </div>
+    </div> 
+    <!-- -->
+    <div class="col-12 col-md-6 contact-form pt-2">
+      <form id="contact-form" method="post" action="https://formspree.io/info@mukundkulur.com" role="form">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" class="form-control" name="name" id="name" />
+          </div>					
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" class="form-control" name="email" id="email" />
+          </div>					
+          <div class="form-group">
+            <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject" />
+          </div>
+          <div class="form-group pt-4">
+            <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>	
+          </div>					
+          <div id="success" class="success">
+            Thank you. The Mailman is on His Way :)
+          </div>					
+          <div id="error" class="error">
+            Sorry, don't know what happened. Try later :(
+          </div>					
+          <div id="cf-submit" class="pt-1">
+            <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit" />
+          </div>											
+        </form>
+    </div>
+  </div>
+</div>  
 </section>
-<p><!-- End section --></p>
+<p><!-- end row -->
+<!-- / End Contact Details -->
+<!-- end container -->
+<!-- end section --></p>
+
+<script src="/js/particle/particles.js"></script>
+
+<script src="/js/particle/app.js"></script>
+
+<script type="text/javascript">
+function validateForm() {
+  var name = document.forms["contact-form"]["name"];
+  if (name.value == "") {
+    alert("Name must be filled out");
+    name.focus(); 
+    return false;
+  }
+
+  var email = document.forms["contact-form"]["email"];
+  if (email.value == "") {
+    alert("Email must be filled out");
+    email.focus()
+    return false;
+  }
+
+  var subject = document.forms["contact-form"]["subject"];
+  if (subject.value == "") {
+    alert("Subject must be filled out");
+    subject.focus()
+    return false;
+  }
+
+  var message = document.forms["contact-form"]["message"];
+  if (message.value == "") {
+    alert("Message must be filled out");
+    message.focus()
+    return false;
+  }
+
+  if (name.value !="") or (email.value !="") or (subject.value !="") or (message.value !="") {
+      window.open('mailto:test@example.com?subject=subject&body=body');
+  }
+  
+} 
+</script>
+
 
 
 </body>

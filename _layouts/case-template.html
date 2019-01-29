@@ -2,12 +2,36 @@
 layout: default
 ---
 
+<!-- id="particles-js" -->
+<style>
+  #banner-img{
+      background: url(/images/cases/{{ page.client }}/{{ page.client }}-cover.jpg) center no-repeat;
+      top:0px;
+      background-size: 100%; 
+      height: 100%;
+      -webkit-mask-image: linear-gradient( black 80%, transparent );
+  mask-image: linear-gradient(black 80%,  transparent); 
+}
+
+.navigation{
+  background:transparent !important;
+
+}
+  
+  #about .block {
+      color: #1f2532;
+      width: 100%;
+      padding-left: 30px auto;
+  }
+  
+  </style>
+
 <!--
 =================
 Hero Area
 ================= 
 -->
-<section class="hero-area header-area">
+<section class="hero-area header-area ">
   <div id="banner-img">
   </div>
   
@@ -19,10 +43,12 @@ Hero Area
                 <div class="block text-center">
                     <h1>{{ page.title }}</h1>
                     <span class="borderline"></span>
-                    <h4 style="font-weight: 100;"><a href="">{{ page.category }}</a></h4> <br>
-                    <p> {% for tags in page.tags %}
-                    {{ tags }} &emsp;
-                    {% endfor %}</p>
+                    <h4 style="font-weight: 100;"><a href="">{{ page.category }}</a></h4>
+                    <p> 
+                      {% for tags in page.tags %}
+                        {{ tags }} &emsp;
+                      {% endfor %}
+                    </p>
                     <h4 style="font-weight: 100;">{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
                             <a href="/">Home</a>
                             {% for crumb in crumbs offset: 1 %}
