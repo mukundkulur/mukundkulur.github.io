@@ -64,19 +64,19 @@ Free tools section
                 <div class="cases text-center">
                     <div class="case-photo">
                         <!-- case photo -->
-                        <img class="img-fluid" src="{{site.url}}/images/case-index/{{ cases.photo-thumb }}.jpg" alt="">
+                        <img class="img-fluid" src="{{site.url}}/images/case-index/{{ cases.photo-thumb }}.jpg" alt="" style="height:150px;">
                         <!-- /case photo -->
                     </div>
                     <!-- case name & designation -->
                     <div class="case-content">
                         <h3>{{ cases.title }}</h3>
-                        <p>{{ cases.date | date_to_string }}</p>
+                        <p style="font-size:8pt;"><b class="boldpink">{{ cases.category }}</b></p>
                         <p>{{ cases.excerpt }}</p>
                     </div>
                     <!-- /case name & designation -->
-                    <div class="case-more">
+                    <!-- <div class="case-more">
                         <a class="btn btn-main" href="{{ site.baseurl }}{{ cases.permalink }}">Read more</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <!-- end case -->

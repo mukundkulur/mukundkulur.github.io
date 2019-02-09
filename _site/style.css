@@ -846,6 +846,10 @@ NAVIGATION OPACITY
     background: #fff;
 }
 
+.about h1{
+    text-transform: uppercase;
+}
+
 .about h2 {
     font-size: 40px;
     font-weight: bold;
