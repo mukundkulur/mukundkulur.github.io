@@ -1,27 +1,22 @@
-
-
-@media (max-width: 992px) {
-    .about h2 {
-        font-size: 25px;
-    }
-
-    .about .content {
-        padding: 5px 0;
-    }
-}
-
-@media (max-width: 800px) {
+@media only screen and (min-width: 320px) and (max-width: 767px){ 
+    
     .navigation .navbar-nav > li > a {
         padding: 8px 0 !important;
+    }
+
+    .hero-area {
+        padding: 20px 0; 
+        height: 750px;
     }
 
     .contact-form {
         margin-top: 20px;
     }
 
-    #fullscreen {
+     #fullscreen {
         display:block !important;
-      }
+        width: 100%;
+      } 
     
     .hero-logo{
         padding-bottom: 20px;
@@ -38,45 +33,16 @@
     .title p {
         width: 80%;
     }
-}
 
-  @media (max-width: 480px) {
-    .navigation .navbar-nav > li > a {
-       padding: 8px 0 !important;
-   }
+ }
 
-   .hero-area {
-       padding: 80px 0;
-   }
-
-   .hero-area .block {
-       margin: 20px 0;
-   }
-
-   .services .service-block {
-        padding: 15px;
+@media only screen and (min-width: 768px) /* and (max-width: 991px) */{ 
+    .about h2 {
+        font-size: 25px;
     }
 
-    .service-2 .p-0 {
-        padding: 0 15px !important;
+    .about .content {
+        padding: 5px 0;
     }
 
-    .section {
-        padding: 40px 0;
-    }
-
-    .title p {
-        width: 80%;
-    }
-
-    .cases{
-        display: block;
-        margin: 200px;
-    }
-}
-
-@media (max-width: 400px) {
-    .service-2 .p-0 {
-        padding: 0 15px !important;
-    }
-}
+ }

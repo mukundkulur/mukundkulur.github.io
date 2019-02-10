@@ -52,6 +52,29 @@ Hero Area
 <!-- End of section -->
 
 
+<!--
+=================
+About Section
+================= 
+-->
+<section class="about-2 section" id="aboutsection">
+  <div class="container ">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <h2>Design is a formal response to a strategic question.</h2>
+        <h4>Mariona Lopez</h4>
+      </div>
+      <div class="col-12 col-md-6">
+        <p>Over the years the role of design has become more essential and integral part of business operations. By setting design at the core of a business it diffuses a value-centered approach throughout the organisation and discover opportunities to add meaning to their customers. It champions a synergy between the the customer needs and the business returns to create a better future for the business and the society.</p>
+      </div>
+    </div> 
+    <!-- End row -->
+  </div> 
+  <!-- End container -->
+</section> 
+<!-- End section -->
+
+
 <section class="about-mission-vision section">
 	<div class="container">
 		<div class="row">
@@ -60,15 +83,14 @@ Hero Area
 					<h4>Little more info</h4>
 					<h2>About Me.</h2>
 					<span class="borderline"></span>
-					<p class="text-justify">Mukund joined FORGE in November 2018 as Innovation Manager. With 4+ years of experience as Strategic Design & Innovation Consultant, Mukund is on continuously look out for ideas, concepts and design strategies to help the innovators and startups develop a solution that is viable, feasible and desirable.</p><br>
-<p class="text-justify">
-He looks after the seamless execution of iTOOLS, tweak them with the ever changing innovation landscape, and ensure that the innovators & startups are able to effectively apply the tools & techniques to catalyse the entire process and mitigate the risks in their startup journey.</p><br>
-<p class="text-justify">
-Mukund is also working on Sandbox, a massive compendium of Challenge briefs curated by Team FORGE with a mission to ignite young minds design and build prototypes, and jumpstart their tech startups. He also co-ordinates the operation and ensures effective outcomes in the FMPI program[Fellowship in Managing Product Innovations].</p><br>
-<p class="text-justify">
-He has played diverse roles in leading Corporates viz., Innovation Consultant at Nokia; Strategy Consultant at Robit Plc,Finland; Strategic Foresight & Innovation Consultant at Rohrbeck Heger GmbH, Berlin; Design Engineer at Cyient; Associate Engineer at Cameron. He also founded ThirdEye, a product startup focused on social innovation by designing assistive devices for the visually impaired and was recognised as the most 'Investor Ready Startup' at Summer of Startups.</p><br>
-<p class="text-justify">
-Mukund received his BE specializing in Mechanical engineering from Anna University, Chennai and his M.Sc. in International Design Business Management from Aalto University, Finland. He also holds a Diploma degree in Innovation Management from European Innovation Academy. </p><br>
+					  <p class="text-justify">
+            My name is Mukund(han) Kulur. I work as Design & Innovation Strategist. With 4+ years of experience as Strategic Design & Innovation Consultant and 3+ years in Product Development, I  continuously look out for ideas, concepts and design strategies to help the innovators and startups develop solutions that are viable, feasible and desirable.
+            </p><br>
+            <p class="text-justify">
+            As a Design Strategist, there is no defined roles. I mold and shape myself to the need of the hour and function in the capacity of a researcher, designers, tester, or even as program manager. 
+            I have played diverse roles in leading Corporates viz., Innovation Consultant at Nokia; Strategy Consultant at Robit Plc,Finland; Strategic Foresight & Innovation Consultant at Rohrbeck Heger GmbH, Berlin; Design Engineer at Cyient; Associate Engineer at Cameron. He also founded ThirdEye, a product startup focused on social innovation by designing assistive devices for the visually impaired and was recognised as the most 'Investor Ready Startup' at Summer of Startups.
+            </p><br>
+            <p class="text-justify">At the core, I am a higly disciplined systems thinker who combines creative and analytical skills to deliver potent innovation strategies. Through master storytelling I engage customers/clients through powerful narratives.</p><br>
 				</div>
 			</div>
 		</div>
@@ -77,22 +99,21 @@ Mukund received his BE specializing in Mechanical engineering from Anna Universi
 				<div class="commonTab">
 					<ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
 						<li class="nav-item">
-							<a class="nav-link active" id="home-tab" data-toggle="tab" href="#philosophy" role="tab">Our Philosophy</a>
+							<a class="nav-link active" id="home-tab" data-toggle="tab" href="#career" role="tab">Career</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" id="profile-tab" data-toggle="tab" href="#mission" role="tab">mission</a>
+							<a class="nav-link" id="profile-tab" data-toggle="tab" href="#education" role="tab">Education</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" id="contact-tab" data-toggle="tab" href="#vision" role="tab">vision</a>
+							<a class="nav-link" id="contact-tab" data-toggle="tab" href="#interests" role="tab">Interests</a>
 						</li>
 					</ul>
 					<div class="tab-content" id="myTabContent">
-						<div class="tab-pane fade show active" id="philosophy" role="tabpanel">
+						<div class="tab-pane fade show active" id="career" role="tabpanel">
 							<div class="row">
 								<div class="col-md-6 align-self-center">
 									<h2>We Create Designs<br> and technology</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus
-										dolor harum voluptatibus modi dicta ducimus.</p>
+									<p>Strategic designers target the highest cognitive level known as Fuzzy front end. This part of the process is where the guidelines are created: the plan to penetrate a market, how a company should be differentiated, how the launch of the product fits with the brand, etc. Every action that the company does has to be designed, and this is our task as strategic designers. I think our actitude towards problems is the first step to solve them, we are not scared, we feel confident in this situation.</p>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat
 										cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!</p>
 								</div>
@@ -101,12 +122,11 @@ Mukund received his BE specializing in Mechanical engineering from Anna Universi
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane fade" id="mission" role="tabpanel">
+						<div class="tab-pane fade" id="education" role="tabpanel">
 							<div class="row">
 								<div class="col-md-6 align-self-center">
 									<h2>Our Mission</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus
-										dolor harum voluptatibus modi dicta ducimus.</p>
+									<p>The first skill of a strategic designer is to be able to analyse the user and the context, qualitative and quantitatively.</p>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat
 										cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!</p>
 								</div>
@@ -115,15 +135,12 @@ Mukund received his BE specializing in Mechanical engineering from Anna Universi
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane fade" id="vision" role="tabpanel">
+						<div class="tab-pane fade" id="interests" role="tabpanel">
 							<div class="row">
 								<div class="col-md-6 align-self-center">
 									<h2>Our Vision</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus
-										dolor harum voluptatibus modi dicta ducimus.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat
-										cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!</p>
-								</div>
+									<p>Finally, we the bridge between business and users. We evangalise the importance of people and meanings within the organisation. Using business skills such business modelling, product and brand management among others we enable decision making and control that was previously missing in organisations..</p>
+									</div>
 								<div class="col-md-6">
 									<img class="img-fluid rounded shadow mt-20" src="images/company/company-image-3.jpg" alt="">
 								</div>
@@ -146,16 +163,11 @@ Contact Section
     <div class="row">
       <div class="col">
         <div class="title text-center">
-          <h4>Drop a note</h4>
-          <h2>ENQUIRIES.</h2>
+          <h4>Reach out</h4>
+          <h2>PRESENCE.</h2>
           <span class="borderline"></span>
           <p>
-          No two companies needs are the same. That's why I customize services on the need basis for each startup and any multi-nationals around the globe. Contact me to discuss how we can together find the right package to meet your needs. 
-          No strings attached. <br><!-- 
-          Do you have a problem you need to define?<br>
-          Do you have an idea to take forward? <br>
-          Do you need help to rethink your strategy?<br>
-          Do you have a problem in taking your product to market?<br> -->
+          In the digital era, it is inevitable that one has a digital presence. Below are few platforms and spaces where I can be found and be approached.<br>
           </p>
         </div>
       </div>
