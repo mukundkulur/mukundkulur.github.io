@@ -509,11 +509,14 @@ a:hover {
 .navigation {
     transition: .3s all;
     position: fixed;
-    top: 0;
+    top: 0px;
     width: 100%;
     z-index: 12;
 }
 
+.navbar-collapse{
+    padding-right: 50px;
+}
 
 .navigation .nav-item{
     z-index: 100;
@@ -527,7 +530,7 @@ a:hover {
     color: #707d8f;
     font-size: 15px;
     line-height: 26px;
-    padding: 0px 15px !important;
+    padding: 15px 15px !important;
     transition: .2s ease-in-out 0s;
 }
 .navigation .navbar-nav > li > a:hover,
