@@ -280,7 +280,7 @@ Client section
 <div class="client-member text-center">
 <div class="client-photo">
 <!-- member photo -->
-<img src="/images/client-logo/1-forge.png" alt="Forge Accelerator" class="img-fluid">
+<img src="/images/client-logo/9-icarusnova.png" alt="Icarusnova" class="img-fluid">
 <!-- /member photo -->
 </div>
 <!-- member name & designation -->
